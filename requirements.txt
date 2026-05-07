@@ -1,0 +1,17 @@
+antlr4-python3-runtime
+datasets
+langchain-core
+langchain-google-genai
+langchain-openai
+langchain-together
+matplotlib
+numpy
+optuna
+pandas
+pyarrow
+scikit-learn
+scipy
+sympy
+tiktoken
+tqdm
+uqlm

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Is Escalation Worth It? A Decision-Theoretic Characterization of LLM Cascades"
+authors:
+  - family-names: Bouchard
+    given-names: Dylan
+    orcid: "https://orcid.org/0009-0004-9233-2324"
+license: Apache-2.0
+message: "If you use this code, please cite the accompanying paper."

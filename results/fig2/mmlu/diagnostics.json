@@ -1,0 +1,10 @@
+{
+  "median_gap": 0.001803589142902906,
+  "band_width_ratio": 0.971984795163487,
+  "dominance_fraction": 0.954,
+  "fixed_chain_vs_envelope": {
+    "median_gap": -0.0115118134320229,
+    "band_width_ratio": 0.7475574700213243,
+    "dominance_fraction": 0.002
+  }
+}

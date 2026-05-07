@@ -1,0 +1,27 @@
+{
+  "router_vs_cascade": {
+    "median_gap": 0.014179610917571694,
+    "band_width_ratio": 1.2930978401482884,
+    "dominance_fraction": 0.9363636363636364
+  },
+  "emb_cascade_vs_cascade": {
+    "median_gap": -0.003587830675870929,
+    "band_width_ratio": 0.9974601347620521,
+    "dominance_fraction": 0.014
+  },
+  "router_vs_emb_cascade": {
+    "median_gap": 0.03664750467512359,
+    "band_width_ratio": 1.0220036400381314,
+    "dominance_fraction": 0.9590909090909091
+  },
+  "model_aurocs": {
+    "llama-3.1-8b": 0.643470817530552,
+    "gpt-oss-20b": NaN,
+    "qwen2.5-7b": NaN,
+    "gpt-4o-mini": 0.5752289929965443,
+    "MiniMax-M2.7": NaN,
+    "llama-3.3-70b": NaN,
+    "deepseek-v3": 0.6190579513130661,
+    "gpt-4o": 0.5929653862699475
+  }
+}

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Local/system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+cache/
+
+# Large/API-dependent generated response cache
+data/output_data/
+data/output_data_*/
+
+# Batch intermediates from generation
+data/output_data/batches/
+
+# Optional local recomputation artifacts
+optuna_journal*.log
