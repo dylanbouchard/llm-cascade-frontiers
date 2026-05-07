@@ -13,25 +13,28 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-The scripts assume they are run from this directory. Cached results and figures
-use relative paths such as `results/`, `figures/`, and `data/prompts/`.
+The scripts assume they are run from `src/`. Cached results and figures
+use relative paths such as `results/`, `figures/`, and `data/prompts/`
+inside that directory.
 
 ## Cached-Result Reproduction
 
-The fastest reproduction path uses the cached numerical arrays in `results/`.
+The fastest reproduction path uses the cached numerical arrays in `src/results/`.
 This does not require model API access.
 
 ```bash
+cd src
 python3 figures.py
 ```
 
 This regenerates the main held-out frontier comparison, the representative
 escalation-benefit figure, and the appendix escalation-benefit panels. The
-rendered figures are written to `figures/`.
+rendered figures are written to `src/figures/`.
 
 Individual figure targets:
 
 ```bash
+cd src
 python3 figures.py fig2
 python3 figures.py fig3
 python3 figures.py figA5
@@ -41,19 +44,19 @@ python3 figures.py figA5
 
 | Script | Purpose | Requires raw responses? |
 |---|---|---|
-| `figures.py` | Render main and appendix figures from cached results | No |
-| `fig2_compute.py` | Held-out pairwise envelope, full fixed chain, optimized subsequence, and single-model baseline curves | Yes |
-| `router_compute.py` | Diagnostic frozen-embedding router and same-signal comparisons | Yes |
-| `voi_compute.py` | Scorer-choice ablation and benefit-AUROC diagnostics | Yes |
-| `cal_sensitivity.py` | Calibration-size sensitivity | Yes |
-| `grid_sensitivity.py` | Threshold-grid sensitivity | Yes |
-| `opt_sensitivity.py` | NSGA-II versus random-search sensitivity | Yes |
-| `foc_verify.py` | Two-model sweep verification | Yes |
-| `cost_variability.py` | Cost-score correlation diagnostics | Yes |
-| `escalation_benefit.py` | Escalation-benefit curves for all pairs | Yes |
+| `src/figures.py` | Render main and appendix figures from cached results | No |
+| `src/fig2_compute.py` | Held-out pairwise envelope, full fixed chain, optimized subsequence, and single-model baseline curves | Yes |
+| `src/router_compute.py` | Diagnostic frozen-embedding router and same-signal comparisons | Yes |
+| `src/voi_compute.py` | Scorer-choice ablation and benefit-AUROC diagnostics | Yes |
+| `src/cal_sensitivity.py` | Calibration-size sensitivity | Yes |
+| `src/grid_sensitivity.py` | Threshold-grid sensitivity | Yes |
+| `src/opt_sensitivity.py` | NSGA-II versus random-search sensitivity | Yes |
+| `src/foc_verify.py` | Two-model sweep verification | Yes |
+| `src/cost_variability.py` | Cost-score correlation diagnostics | Yes |
+| `src/escalation_benefit.py` | Escalation-benefit curves for all pairs | Yes |
 
 Scripts that require raw responses expect graded parquet files under
-`data/output_data/{dataset}-{model}.parquet`.
+`src/data/output_data/{dataset}-{model}.parquet`.
 
 ## Raw Response Generation
 
@@ -61,6 +64,7 @@ Model generation uses UQLM `WhiteBoxUQ` and writes one parquet per
 dataset-model pair:
 
 ```bash
+cd src
 python3 generate_whitebox.py --dataset mmlu --model gpt-4o-mini
 python3 generate_whitebox.py --dataset all --model all
 ```
@@ -82,6 +86,7 @@ No credentials are included in this repository.
 After generation, grade response parquets in place:
 
 ```bash
+cd src
 python3 grade_outputs.py --dataset all
 ```
 
@@ -105,5 +110,5 @@ calibration-selected non-dominated pool.
 
 Full end-to-end regeneration can differ slightly if upstream model providers
 change model implementations, tokenization behavior, rate limits, or API
-availability. The cached numerical results in `results/` are the artifacts used
-to render the released figures.
+availability. The cached numerical results in `src/results/` are the artifacts
+used to render the released figures.

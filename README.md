@@ -12,20 +12,24 @@ a diagnostic frozen-embedding router.
 
 ## Repository Contents
 
-- `cascade_core.py`, `optuna_frontier.py`: core cascade simulation, cost
+- `src/cascade_core.py`, `src/optuna_frontier.py`: core cascade simulation, cost
   computation, threshold sweeps, and frontier utilities.
-- `fig2_compute.py`, `router_compute.py`, `voi_compute.py`,
-  `cal_sensitivity.py`, `grid_sensitivity.py`, `opt_sensitivity.py`,
-  `foc_verify.py`, `cost_variability.py`, `escalation_benefit.py`: scripts used
-  to compute cached results.
-- `figures.py`: regenerates the paper figures from cached results.
-- `generate_whitebox.py`: regenerates model responses and UQ scores using UQLM
-  `WhiteBoxUQ`.
-- `grade_outputs.py` and `grade_*.py`: dataset-specific grading scripts.
-- `data/prompts/`: formatted public benchmark prompts/source records.
-- `data/*_embeddings.parquet`: frozen embeddings used by the diagnostic router.
-- `results/`: cached numerical outputs used to regenerate figures and tables.
-- `figures/`: rendered figure assets.
+- `src/fig2_compute.py`, `src/router_compute.py`, `src/voi_compute.py`,
+  `src/cal_sensitivity.py`, `src/grid_sensitivity.py`,
+  `src/opt_sensitivity.py`, `src/foc_verify.py`,
+  `src/cost_variability.py`, `src/escalation_benefit.py`: scripts used to
+  compute cached results.
+- `src/figures.py`: regenerates the paper figures from cached results.
+- `src/generate_whitebox.py`: regenerates model responses and UQ scores using
+  UQLM `WhiteBoxUQ`.
+- `src/grade_outputs.py` and `src/grade_*.py`: dataset-specific grading
+  scripts.
+- `src/data/prompts/`: formatted public benchmark prompts/source records.
+- `src/data/*_embeddings.parquet`: frozen embeddings used by the diagnostic
+  router.
+- `src/results/`: cached numerical outputs used to regenerate figures and
+  tables.
+- `src/figures/`: rendered figure assets.
 
 Large raw model-response parquets are not included. See
 [`DATA.md`](DATA.md) and [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) for details.
@@ -43,19 +47,21 @@ pip install -r requirements.txt
 Regenerate the bundled paper figures from cached results:
 
 ```bash
+cd src
 python3 figures.py
 ```
 
 Individual figure targets are also available:
 
 ```bash
+cd src
 python3 figures.py fig2
 python3 figures.py fig3
 python3 figures.py figA5
 ```
 
 The cached result files are sufficient for figure regeneration. Recomputing the
-frontiers from raw generations requires `data/output_data/*.parquet`, which is
+frontiers from raw generations requires `src/data/output_data/*.parquet`, which is
 not included because the files are large and API-dependent.
 
 ## Full Pipeline
@@ -63,6 +69,7 @@ not included because the files are large and API-dependent.
 The full response-generation path is:
 
 ```bash
+cd src
 python3 format_prompts.py
 python3 generate_whitebox.py --dataset mmlu --model gpt-4o-mini
 python3 grade_outputs.py --dataset mmlu
@@ -72,10 +79,11 @@ Use `--dataset all --model all` to regenerate the full response cache. This
 requires API credentials for the model providers and can be expensive. SimpleQA
 grading uses an LLM judge and also requires provider credentials.
 
-After graded response parquets exist in `data/output_data/`, the cached results
+After graded response parquets exist in `src/data/output_data/`, the cached results
 can be recomputed with the corresponding scripts, for example:
 
 ```bash
+cd src
 python3 fig2_compute.py
 python3 router_compute.py
 python3 voi_compute.py
