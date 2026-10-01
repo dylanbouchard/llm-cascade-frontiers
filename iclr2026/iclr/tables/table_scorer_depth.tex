@@ -1,0 +1,36 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Scorer robustness of the exact $S_3$ versus $S_2$ comparison. Top panel reports mean test-set accuracy differences in percentage points, with 10th--90th split percentiles in brackets. Bottom panel reports mean realized-cost differences in dollars per 1,000 queries. Differences integrate over 500 assigned budget positions and average equally over 50 splits. Positive values favor $S_3$ in accuracy and indicate greater cost.}
+\label{tab:scorer-depth}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Scorer & MMLU & TriviaQA & MATH & SimpleQA & LiveCodeBench \\
+\midrule
+\multicolumn{6}{c}{Accuracy difference (percentage points)} \\
+\midrule
+Mean negentropy & \shortstack{$-0.053$ \\ $[-0.316, +0.300]$} & \shortstack{$+0.052$ \\ $[-0.163, +0.263]$} & \shortstack{$-0.077$ \\ $[-0.212, +0.004]$} & \shortstack{$-0.095$ \\ $[-0.221, -0.007]$} & \shortstack{$-0.025$ \\ $[-0.049, -0.002]$} \\
+Min negentropy & \shortstack{$+0.272$ \\ $[-0.130, +0.801]$} & \shortstack{$+0.191$ \\ $[-0.092, +0.402]$} & \shortstack{$-0.104$ \\ $[-0.297, -0.000]$} & \shortstack{$-0.099$ \\ $[-0.232, +0.005]$} & \shortstack{$-0.037$ \\ $[-0.075, +0.000]$} \\
+Prob.\ margin & \shortstack{$-0.069$ \\ $[-0.314, +0.295]$} & \shortstack{$-0.113$ \\ $[-0.395, +0.115]$} & \shortstack{$-0.110$ \\ $[-0.273, -0.006]$} & \shortstack{$-0.016$ \\ $[-0.199, +0.112]$} & \shortstack{$-0.020$ \\ $[-0.053, +0.000]$} \\
+Min probability & \shortstack{$-0.076$ \\ $[-0.300, +0.158]$} & \shortstack{$+0.127$ \\ $[-0.063, +0.342]$} & \shortstack{$-0.114$ \\ $[-0.278, -0.015]$} & \shortstack{$-0.116$ \\ $[-0.289, -0.011]$} & \shortstack{$-0.005$ \\ $[-0.075, +0.040]$} \\
+Length-norm.\ probability & \shortstack{$-0.044$ \\ $[-0.387, +0.284]$} & \shortstack{$+0.035$ \\ $[-0.131, +0.250]$} & \shortstack{$-0.075$ \\ $[-0.217, +0.036]$} & \shortstack{$-0.129$ \\ $[-0.303, +0.001]$} & \shortstack{$-0.040$ \\ $[-0.096, -0.008]$} \\
+Correctness-trained token-prob. &\shortstack{$-0.073$ \\ $[-0.414, +0.291]$} & \shortstack{$+0.159$ \\ $[-0.187, +0.410]$} & \shortstack{$-0.095$ \\ $[-0.304, -0.007]$} & \shortstack{$-0.082$ \\ $[-0.248, +0.048]$} & \shortstack{$-0.030$ \\ $[-0.063, -0.000]$} \\
+Correctness-trained embedding &\shortstack{$-0.022$ \\ $[-0.300, +0.312]$} & \shortstack{$-0.495$ \\ $[-0.912, -0.100]$} & \shortstack{$-0.254$ \\ $[-0.461, -0.072]$} & \shortstack{$-1.019$ \\ $[-1.426, -0.596]$} & \shortstack{$-0.055$ \\ $[-0.115, -0.007]$} \\
+Benefit-trained token-prob. &\shortstack{$-0.127$ \\ $[-0.604, +0.316]$} & \shortstack{$+0.425$ \\ $[+0.182, +0.692]$} & \shortstack{$-0.072$ \\ $[-0.250, +0.090]$} & \shortstack{$-0.161$ \\ $[-0.421, +0.035]$} & \shortstack{$-0.067$ \\ $[-0.131, -0.009]$} \\
+Benefit-trained embedding &\shortstack{$-0.954$ \\ $[-1.795, -0.201]$} & \shortstack{$-0.311$ \\ $[-1.049, +0.324]$} & \shortstack{$-1.522$ \\ $[-2.457, -0.631]$} & \shortstack{$-2.245$ \\ $[-3.012, -1.468]$} & \shortstack{$-0.210$ \\ $[-0.518, +0.056]$} \\
+\midrule
+\multicolumn{6}{c}{Realized-cost difference (\$/1,000 queries)} \\
+\midrule
+Mean negentropy & $-0.00461$ & $+0.00058$ & $+0.00819$ & $+0.00070$ & $+0.00059$ \\
+Min negentropy & $-0.01467$ & $+0.00109$ & $+0.02217$ & $+0.00040$ & $+0.00024$ \\
+Prob.\ margin & $-0.00395$ & $+0.00036$ & $+0.00762$ & $+0.00087$ & $+0.00055$ \\
+Min probability & $+0.00539$ & $+0.00116$ & $+0.01792$ & $+0.00049$ & $+0.00239$ \\
+Length-norm.\ probability & $-0.00484$ & $+0.00066$ & $-0.00105$ & $+0.00059$ & $+0.00071$ \\
+Correctness-trained token-prob. &$-0.00464$ & $+0.00110$ & $+0.01919$ & $+0.00070$ & $+0.00046$ \\
+Correctness-trained embedding &$+0.00248$ & $+0.00052$ & $+0.03761$ & $+0.00207$ & $+0.00062$ \\
+Benefit-trained token-prob. &$-0.00216$ & $+0.00114$ & $+0.03005$ & $+0.00076$ & $+0.00143$ \\
+Benefit-trained embedding &$+0.00005$ & $+0.00206$ & $+0.07287$ & $-0.00426$ & $+0.02483$ \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,5 +1,8 @@
 # Reproducibility Guide
 
+This document describes the earlier `src/` release. For the final ICLR paper,
+use [`iclr2026/README.md`](iclr2026/README.md).
+
 This document describes how to reproduce the figures and cached numerical
 artifacts for the paper.
 

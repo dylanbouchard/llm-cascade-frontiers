@@ -1,0 +1,12 @@
+-r requirements.txt
+# Optional, only for rebuilding response embeddings or generating/grading answers.
+sentence-transformers==5.4.0
+datasets==3.6.0
+uqlm==0.5.10
+sympy==1.14.0
+antlr4-python3-runtime==4.11.*
+langchain-core
+langchain-openai
+langchain-together
+langchain-google-genai
+jupyter

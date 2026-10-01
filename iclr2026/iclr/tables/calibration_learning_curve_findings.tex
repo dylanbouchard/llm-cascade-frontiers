@@ -1,0 +1,14 @@
+Calibration-set gains remain positive but decline as the calibration subsets grow.
+At the smallest sizes, mean fitted gains range from 0.256 percentage points to 1.302 percentage points,
+compared with 0.009 percentage points to 0.451 percentage points at the largest sizes. Test-set differences
+generally move toward zero as calibration-set data increase, although the pattern
+is not monotone for every dataset. At the largest sizes, mean test-set
+accuracy differences are $-0.054$ percentage points on MMLU, $+0.052$ percentage points on
+TriviaQA, $-0.078$ percentage points on MATH, $-0.095$ percentage points on SimpleQA, and $-0.025$ percentage points on
+LiveCodeBench. The three-model class also spends more on average, with
+budget-normalized cost differences of 0.21\% to 2.15\% at those sizes.
+Common feasible coverage ranges from 99.32\% to 99.82\% across datasets.
+These results suggest that more calibration-set data reduce losses from selecting
+additional depth, but do not reveal a substantial average test-set advantage
+from a third stage at the tested sizes. Persistent fitted gains, particularly
+on MMLU and TriviaQA, do not transfer into comparable test-set gains.

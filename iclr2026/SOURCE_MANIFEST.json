@@ -1,0 +1,1197 @@
+[
+  {
+    "source": "audit_exact_inputs.py",
+    "path": "audit_exact_inputs.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "dc487ff5dd126ba68adade4f412337b39946973572bd071e2120b1edb32d35dc",
+    "packaged_sha256": "dc487ff5dd126ba68adade4f412337b39946973572bd071e2120b1edb32d35dc",
+    "changes": []
+  },
+  {
+    "source": "audit_heldout_five.py",
+    "path": "audit_heldout_five.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "515319d642b112c831848b5e4e29cebae7780b04e0e640ab4adbde4597a7d0ed",
+    "packaged_sha256": "515319d642b112c831848b5e4e29cebae7780b04e0e640ab4adbde4597a7d0ed",
+    "changes": []
+  },
+  {
+    "source": "audit_heldout_four.py",
+    "path": "audit_heldout_four.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "98af7b4ac7fbea4425c3e3beef83165d3a407795e1041f1dee9db0f768fffefe",
+    "packaged_sha256": "98af7b4ac7fbea4425c3e3beef83165d3a407795e1041f1dee9db0f768fffefe",
+    "changes": []
+  },
+  {
+    "source": "audit_simulated_signal_depth.py",
+    "path": "audit_simulated_signal_depth.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "84c5d192279b20c567c0ea0423e753ba3d50b9adfb9b99524b1eec03b629e96a",
+    "packaged_sha256": "84c5d192279b20c567c0ea0423e753ba3d50b9adfb9b99524b1eec03b629e96a",
+    "changes": []
+  },
+  {
+    "source": "calibration_learning_curve.py",
+    "path": "calibration_learning_curve.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "3cf6f02666dc022fbd5f4cf6fe3a5798a1d730397309d0d414b708d627041fde",
+    "packaged_sha256": "3cf6f02666dc022fbd5f4cf6fe3a5798a1d730397309d0d414b708d627041fde",
+    "changes": []
+  },
+  {
+    "source": "calibration_learning_curve_report.py",
+    "path": "calibration_learning_curve_report.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "1bc93d391602b143d924dd8e4169cb653454a5816b166aac010d1494e25e1a76",
+    "packaged_sha256": "1bc93d391602b143d924dd8e4169cb653454a5816b166aac010d1494e25e1a76",
+    "changes": []
+  },
+  {
+    "source": "cascade_core.py",
+    "path": "cascade_core.py",
+    "role": "imported by synthetic_cost_depth.py",
+    "source_sha256": "43568ba8c842ac1e93c97c39d08c8db898f0acd7bf068b63138b112710eccafa",
+    "packaged_sha256": "43568ba8c842ac1e93c97c39d08c8db898f0acd7bf068b63138b112710eccafa",
+    "changes": []
+  },
+  {
+    "source": "concavity_check.py",
+    "path": "concavity_check.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "8b7ee8c55d072acf1dffc32894ad6ce66265379dfc01b0e2a6cc9f5e6c180192",
+    "packaged_sha256": "8b7ee8c55d072acf1dffc32894ad6ce66265379dfc01b0e2a6cc9f5e6c180192",
+    "changes": []
+  },
+  {
+    "source": "confidence_score_correlations.py",
+    "path": "confidence_score_correlations.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "68769d5acbef726a296568afa3f508c41d4e7dcf0d04f808141b08ec575479a1",
+    "packaged_sha256": "68769d5acbef726a296568afa3f508c41d4e7dcf0d04f808141b08ec575479a1",
+    "changes": []
+  },
+  {
+    "source": "cost_variability.py",
+    "path": "cost_variability.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "e62eb43a8486d6f90a0d85185617477d6edc3455a193933aa14e7ab0362c6531",
+    "packaged_sha256": "e62eb43a8486d6f90a0d85185617477d6edc3455a193933aa14e7ab0362c6531",
+    "changes": []
+  },
+  {
+    "source": "escalation_benefit.py",
+    "path": "escalation_benefit.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "b40435a535c6d107ec06b35a0bd631e51ecec02e948ae4bd33f9f2ceb9e21368",
+    "packaged_sha256": "b40435a535c6d107ec06b35a0bd631e51ecec02e948ae4bd33f9f2ceb9e21368",
+    "changes": []
+  },
+  {
+    "source": "exact_five_bounded.py",
+    "path": "exact_five_bounded.py",
+    "role": "imported by exact_heldout_five.py",
+    "source_sha256": "30779fc87b169e0e3e4081f782420f680e41e373d47bc35e087ca55a1474e2a7",
+    "packaged_sha256": "30779fc87b169e0e3e4081f782420f680e41e373d47bc35e087ca55a1474e2a7",
+    "changes": []
+  },
+  {
+    "source": "exact_five_bounded_kernel.cpp",
+    "path": "exact_five_bounded_kernel.cpp",
+    "role": "source/kernel referenced by exact_five_bounded.py",
+    "source_sha256": "35e00763d450a1563a204096a1ac2adc631b76dc4502d899cf7b5268c636b000",
+    "packaged_sha256": "35e00763d450a1563a204096a1ac2adc631b76dc4502d899cf7b5268c636b000",
+    "changes": []
+  },
+  {
+    "source": "exact_five_kernel.cpp",
+    "path": "exact_five_kernel.cpp",
+    "role": "source/kernel referenced by exact_five_pilot.py",
+    "source_sha256": "a93a2d7a131d2d88785c71c4f02897dcf484cf8ce8262e1d9868ecbc6cbc0196",
+    "packaged_sha256": "a93a2d7a131d2d88785c71c4f02897dcf484cf8ce8262e1d9868ecbc6cbc0196",
+    "changes": []
+  },
+  {
+    "source": "exact_five_pilot.py",
+    "path": "exact_five_pilot.py",
+    "role": "imported by test_exact_five.py",
+    "source_sha256": "3b287f267f974ccbd4dc789c66e886ca308b5374b4d4c76271a40087ff4c99de",
+    "packaged_sha256": "3b287f267f974ccbd4dc789c66e886ca308b5374b4d4c76271a40087ff4c99de",
+    "changes": []
+  },
+  {
+    "source": "exact_four_kernel.cpp",
+    "path": "exact_four_kernel.cpp",
+    "role": "source/kernel referenced by exact_four_model.py",
+    "source_sha256": "b3682cc41c51604ce5b7c9e77a57186d49b00fe894e3b808e4988e97b4954b9d",
+    "packaged_sha256": "b3682cc41c51604ce5b7c9e77a57186d49b00fe894e3b808e4988e97b4954b9d",
+    "changes": []
+  },
+  {
+    "source": "exact_four_model.py",
+    "path": "exact_four_model.py",
+    "role": "imported by exact_heldout_four.py",
+    "source_sha256": "71c4d4d1c864ecc7366bd747cf855fab199795895a723282d402f6b165edf23e",
+    "packaged_sha256": "71c4d4d1c864ecc7366bd747cf855fab199795895a723282d402f6b165edf23e",
+    "changes": []
+  },
+  {
+    "source": "exact_heldout_depth.py",
+    "path": "exact_heldout_depth.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "89d872440bc772eb68839a2f9ea54ed98e14808125da5e387df36b2241b1c32b",
+    "packaged_sha256": "89d872440bc772eb68839a2f9ea54ed98e14808125da5e387df36b2241b1c32b",
+    "changes": []
+  },
+  {
+    "source": "exact_heldout_five.py",
+    "path": "exact_heldout_five.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "b7a8f5af23a761d8efdd8758a6e18fedb854d8a9f736d5d628d3387dff664be8",
+    "packaged_sha256": "b7a8f5af23a761d8efdd8758a6e18fedb854d8a9f736d5d628d3387dff664be8",
+    "changes": []
+  },
+  {
+    "source": "exact_heldout_four.py",
+    "path": "exact_heldout_four.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "1afe181bf0dddfb242e53dfb9b033442b865249bc563f5505671c31c7cc628d7",
+    "packaged_sha256": "1afe181bf0dddfb242e53dfb9b033442b865249bc563f5505671c31c7cc628d7",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/audit_heldout_five.py",
+    "path": "experiments/livecodebench_8model_20260912/audit_heldout_five.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "515319d642b112c831848b5e4e29cebae7780b04e0e640ab4adbde4597a7d0ed",
+    "packaged_sha256": "515319d642b112c831848b5e4e29cebae7780b04e0e640ab4adbde4597a7d0ed",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/audit_heldout_four.py",
+    "path": "experiments/livecodebench_8model_20260912/audit_heldout_four.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "98af7b4ac7fbea4425c3e3beef83165d3a407795e1041f1dee9db0f768fffefe",
+    "packaged_sha256": "98af7b4ac7fbea4425c3e3beef83165d3a407795e1041f1dee9db0f768fffefe",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/calibration_learning_curve.py",
+    "path": "experiments/livecodebench_8model_20260912/calibration_learning_curve.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "3cf6f02666dc022fbd5f4cf6fe3a5798a1d730397309d0d414b708d627041fde",
+    "packaged_sha256": "3cf6f02666dc022fbd5f4cf6fe3a5798a1d730397309d0d414b708d627041fde",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/cascade_core.py",
+    "path": "experiments/livecodebench_8model_20260912/cascade_core.py",
+    "role": "imported by experiments/livecodebench_8model_20260912/escalation_benefit.py",
+    "source_sha256": "12460cf54fe5c7ad4ba8c0f9e5c76d6c6d4c5ef9ff16459d2df592672f794369",
+    "packaged_sha256": "12460cf54fe5c7ad4ba8c0f9e5c76d6c6d4c5ef9ff16459d2df592672f794369",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/concavity_check.py",
+    "path": "experiments/livecodebench_8model_20260912/concavity_check.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "8b7ee8c55d072acf1dffc32894ad6ce66265379dfc01b0e2a6cc9f5e6c180192",
+    "packaged_sha256": "8b7ee8c55d072acf1dffc32894ad6ce66265379dfc01b0e2a6cc9f5e6c180192",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/cost_variability.py",
+    "path": "experiments/livecodebench_8model_20260912/cost_variability.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "e62eb43a8486d6f90a0d85185617477d6edc3455a193933aa14e7ab0362c6531",
+    "packaged_sha256": "e62eb43a8486d6f90a0d85185617477d6edc3455a193933aa14e7ab0362c6531",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/escalation_benefit.py",
+    "path": "experiments/livecodebench_8model_20260912/escalation_benefit.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "b40435a535c6d107ec06b35a0bd631e51ecec02e948ae4bd33f9f2ceb9e21368",
+    "packaged_sha256": "b40435a535c6d107ec06b35a0bd631e51ecec02e948ae4bd33f9f2ceb9e21368",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/exact_five_bounded.py",
+    "path": "experiments/livecodebench_8model_20260912/exact_five_bounded.py",
+    "role": "imported by experiments/livecodebench_8model_20260912/exact_heldout_five.py",
+    "source_sha256": "30779fc87b169e0e3e4081f782420f680e41e373d47bc35e087ca55a1474e2a7",
+    "packaged_sha256": "30779fc87b169e0e3e4081f782420f680e41e373d47bc35e087ca55a1474e2a7",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/exact_five_bounded_kernel.cpp",
+    "path": "experiments/livecodebench_8model_20260912/exact_five_bounded_kernel.cpp",
+    "role": "source/kernel referenced by experiments/livecodebench_8model_20260912/exact_five_bounded.py",
+    "source_sha256": "35e00763d450a1563a204096a1ac2adc631b76dc4502d899cf7b5268c636b000",
+    "packaged_sha256": "35e00763d450a1563a204096a1ac2adc631b76dc4502d899cf7b5268c636b000",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/exact_four_kernel.cpp",
+    "path": "experiments/livecodebench_8model_20260912/exact_four_kernel.cpp",
+    "role": "source/kernel referenced by experiments/livecodebench_8model_20260912/exact_four_model.py",
+    "source_sha256": "b3682cc41c51604ce5b7c9e77a57186d49b00fe894e3b808e4988e97b4954b9d",
+    "packaged_sha256": "b3682cc41c51604ce5b7c9e77a57186d49b00fe894e3b808e4988e97b4954b9d",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/exact_four_model.py",
+    "path": "experiments/livecodebench_8model_20260912/exact_four_model.py",
+    "role": "imported by experiments/livecodebench_8model_20260912/exact_heldout_four.py",
+    "source_sha256": "71c4d4d1c864ecc7366bd747cf855fab199795895a723282d402f6b165edf23e",
+    "packaged_sha256": "71c4d4d1c864ecc7366bd747cf855fab199795895a723282d402f6b165edf23e",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/exact_heldout_depth.py",
+    "path": "experiments/livecodebench_8model_20260912/exact_heldout_depth.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "89d872440bc772eb68839a2f9ea54ed98e14808125da5e387df36b2241b1c32b",
+    "packaged_sha256": "89d872440bc772eb68839a2f9ea54ed98e14808125da5e387df36b2241b1c32b",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/exact_heldout_five.py",
+    "path": "experiments/livecodebench_8model_20260912/exact_heldout_five.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "b7a8f5af23a761d8efdd8758a6e18fedb854d8a9f736d5d628d3387dff664be8",
+    "packaged_sha256": "b7a8f5af23a761d8efdd8758a6e18fedb854d8a9f736d5d628d3387dff664be8",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/exact_heldout_four.py",
+    "path": "experiments/livecodebench_8model_20260912/exact_heldout_four.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "1afe181bf0dddfb242e53dfb9b033442b865249bc563f5505671c31c7cc628d7",
+    "packaged_sha256": "1afe181bf0dddfb242e53dfb9b033442b865249bc563f5505671c31c7cc628d7",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/fig2_compute.py",
+    "path": "experiments/livecodebench_8model_20260912/fig2_compute.py",
+    "role": "imported by experiments/livecodebench_8model_20260912/exact_heldout_depth.py",
+    "source_sha256": "1c0567223ba8162ddb32aa2da3712ea2e8d00ff878d61f527c758749628b9fd2",
+    "packaged_sha256": "1c0567223ba8162ddb32aa2da3712ea2e8d00ff878d61f527c758749628b9fd2",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/figures.py",
+    "path": "experiments/livecodebench_8model_20260912/figures.py",
+    "role": "imported by experiments/livecodebench_8model_20260912/concavity_check.py",
+    "source_sha256": "905cfade4fabcb0da9acf1c37b7d3d02b331a3350ec2a8946b0c1cee8408a5ce",
+    "packaged_sha256": "905cfade4fabcb0da9acf1c37b7d3d02b331a3350ec2a8946b0c1cee8408a5ce",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/optuna_frontier.py",
+    "path": "experiments/livecodebench_8model_20260912/optuna_frontier.py",
+    "role": "imported by experiments/livecodebench_8model_20260912/fig2_compute.py",
+    "source_sha256": "611f4da881757ef411a0b6afa97e0b88fd41ff9af449255c937fdd8f325c2355",
+    "packaged_sha256": "611f4da881757ef411a0b6afa97e0b88fd41ff9af449255c937fdd8f325c2355",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/oracle_depth_analysis.py",
+    "path": "experiments/livecodebench_8model_20260912/oracle_depth_analysis.py",
+    "role": "imported by experiments/livecodebench_8model_20260912/exact_heldout_depth.py",
+    "source_sha256": "9006847edafe9ef5f6e96cadb868f6cd3f9abaef1fd12e4b51b79c45b9f1b8c6",
+    "packaged_sha256": "9006847edafe9ef5f6e96cadb868f6cd3f9abaef1fd12e4b51b79c45b9f1b8c6",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/ratio_condition_check.py",
+    "path": "experiments/livecodebench_8model_20260912/ratio_condition_check.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "b9074f82f69d907e443c41e2cf05285b92e14d2cb6ba1c3a958c1f6feb3c6b69",
+    "packaged_sha256": "b9074f82f69d907e443c41e2cf05285b92e14d2cb6ba1c3a958c1f6feb3c6b69",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/response_scorer_compute.py",
+    "path": "experiments/livecodebench_8model_20260912/response_scorer_compute.py",
+    "role": "imported by experiments/livecodebench_8model_20260912/voi_compute.py",
+    "source_sha256": "89dcdca01c06a60622b7e375a4a45aee80c56f217e2625af0b87462f9d919a99",
+    "packaged_sha256": "89dcdca01c06a60622b7e375a4a45aee80c56f217e2625af0b87462f9d919a99",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/scorer_depth_compute.py",
+    "path": "experiments/livecodebench_8model_20260912/scorer_depth_compute.py",
+    "role": "eight-model LiveCodeBench source",
+    "source_sha256": "9a0b8c0c6095730d212e70b264e50c2d7b63eb0f6a597f23b3f2f853b9e08ff2",
+    "packaged_sha256": "9a0b8c0c6095730d212e70b264e50c2d7b63eb0f6a597f23b3f2f853b9e08ff2",
+    "changes": []
+  },
+  {
+    "source": "experiments/livecodebench_8model_20260912/voi_compute.py",
+    "path": "experiments/livecodebench_8model_20260912/voi_compute.py",
+    "role": "imported by experiments/livecodebench_8model_20260912/scorer_depth_compute.py",
+    "source_sha256": "7b82aed7a1f815ae91d375e883ec15260de7da165cd2ad828bdd72e8f85ec243",
+    "packaged_sha256": "7b82aed7a1f815ae91d375e883ec15260de7da165cd2ad828bdd72e8f85ec243",
+    "changes": []
+  },
+  {
+    "source": "experiments/scorer_s4_20260916/fast_sharded.py",
+    "path": "experiments/scorer_s4_20260916/fast_sharded.py",
+    "role": "included scorer depth extension",
+    "source_sha256": "c9ff1106af006d7f3500cccf03cc6a04108ac591dfcf4af122e2f3cf28b67bea",
+    "packaged_sha256": "49dde0ed94c9bc764a95ccace79fdfae2c09f88aa749e78cd12d0fd29e3ec388",
+    "changes": [
+      "Replaced author-specific repository path with package-relative root."
+    ]
+  },
+  {
+    "source": "experiments/scorer_s4_20260916/fast_worker.py",
+    "path": "experiments/scorer_s4_20260916/fast_worker.py",
+    "role": "included scorer depth extension",
+    "source_sha256": "eda42ce6a5dd2ba62879dfeacc9a0fa714df9fdd933d8847d7432dad7455ed64",
+    "packaged_sha256": "1301643c8bce0699d3de8ce546f5a984a46daeebbad8c6493a2042bd66147bb5",
+    "changes": [
+      "Replaced author-specific repository path with package-relative root."
+    ]
+  },
+  {
+    "source": "experiments/scorer_s4_20260916/run.py",
+    "path": "experiments/scorer_s4_20260916/run.py",
+    "role": "included scorer depth extension",
+    "source_sha256": "2eb1f54d93ca910d212a06fdab676568fabe038ea05f254fb95e5969c4d47f5a",
+    "packaged_sha256": "3f34007b07af5aef58538b27c2fd0dc3a57824b62199ea68341b5815705373bc",
+    "changes": [
+      "Replaced author-specific repository path with package-relative root."
+    ]
+  },
+  {
+    "source": "experiments/scorer_s4_20260916/run_sharded.py",
+    "path": "experiments/scorer_s4_20260916/run_sharded.py",
+    "role": "included scorer depth extension",
+    "source_sha256": "d81b6165d90058d86ef0da594bd15751662d76c0536b84510c9cbc5558cab2b6",
+    "packaged_sha256": "0705a570dea431f72c857cd775b424ded4f3afc7146125b600558573ecf9fa41",
+    "changes": [
+      "Replaced author-specific repository path with package-relative root."
+    ]
+  },
+  {
+    "source": "experiments/scorer_s4_20260916/summarize.py",
+    "path": "experiments/scorer_s4_20260916/summarize.py",
+    "role": "included scorer depth extension",
+    "source_sha256": "ac0af5f8eb8e8f28f6f32059e2d1fdf7de7e7f9891c25f86c763cfed05e42a49",
+    "packaged_sha256": "bdca32cef40fe8c2d8203db8fbc065b24b693daa3c614278ba0c78f1da3fc4f8",
+    "changes": [
+      "Replaced author-specific repository path with package-relative root."
+    ]
+  },
+  {
+    "source": "experiments/scorer_s5_20260916/fast_worker.py",
+    "path": "experiments/scorer_s5_20260916/fast_worker.py",
+    "role": "included scorer depth extension",
+    "source_sha256": "d4bc93e9030724ba436e0e897caf510601666d5d16b90ec4a4bb66d83bc2b2f0",
+    "packaged_sha256": "7304d9d240a6f368f67b28c3af8edc0a117c6a015ef6a4e8f02aed9bf502ca9b",
+    "changes": [
+      "Replaced author-specific repository path with package-relative root."
+    ]
+  },
+  {
+    "source": "experiments/scorer_s5_20260916/launch.py",
+    "path": "experiments/scorer_s5_20260916/launch.py",
+    "role": "included scorer depth extension",
+    "source_sha256": "bedf2689f94394ffb6bc9d3715d3660e4c330fdbfd2c9c0460b7eee7fab9121e",
+    "packaged_sha256": "bedf2689f94394ffb6bc9d3715d3660e4c330fdbfd2c9c0460b7eee7fab9121e",
+    "changes": []
+  },
+  {
+    "source": "experiments/scorer_s5_20260916/report.py",
+    "path": "experiments/scorer_s5_20260916/report.py",
+    "role": "included scorer depth extension",
+    "source_sha256": "59cef93a4a93c794fa473e8f0859da9e288bbf0547616d0bbeaebf106468250d",
+    "packaged_sha256": "59cef93a4a93c794fa473e8f0859da9e288bbf0547616d0bbeaebf106468250d",
+    "changes": []
+  },
+  {
+    "source": "experiments/scorer_s5_20260916/run.py",
+    "path": "experiments/scorer_s5_20260916/run.py",
+    "role": "included scorer depth extension",
+    "source_sha256": "2fe975a0b5cccea3a5a12654ca21ed07547369264288656680ed7c93914dcddc",
+    "packaged_sha256": "1010e49cb477054579c63e26f2278419847d16c46bb002e7763f5282ff770e1a",
+    "changes": [
+      "Replaced author-specific repository path with package-relative root."
+    ]
+  },
+  {
+    "source": "fig2_compute.py",
+    "path": "fig2_compute.py",
+    "role": "imported by exact_heldout_depth.py",
+    "source_sha256": "23e491aacfe2bf148dc32ca96d256127d2cf94c543c2543a9428d2d4449b3a8b",
+    "packaged_sha256": "23e491aacfe2bf148dc32ca96d256127d2cf94c543c2543a9428d2d4449b3a8b",
+    "changes": []
+  },
+  {
+    "source": "figures.py",
+    "path": "figures.py",
+    "role": "imported by concavity_check.py",
+    "source_sha256": "ae0e28d9a1618131bd2659efce3ad52d46a06588f5d5eddacf6e73bcfdbad345",
+    "packaged_sha256": "ae0e28d9a1618131bd2659efce3ad52d46a06588f5d5eddacf6e73bcfdbad345",
+    "changes": []
+  },
+  {
+    "source": "foc_five_compare.py",
+    "path": "foc_five_compare.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "934026186ebe4829504a1f50879e49c52c7ab83daa9794e7da2e2bfffb8bf56d",
+    "packaged_sha256": "934026186ebe4829504a1f50879e49c52c7ab83daa9794e7da2e2bfffb8bf56d",
+    "changes": []
+  },
+  {
+    "source": "foc_five_report.py",
+    "path": "foc_five_report.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "38422f7ca53c134812be796b825a2c7333ccae96532d654b0f4da5458f27bb94",
+    "packaged_sha256": "38422f7ca53c134812be796b825a2c7333ccae96532d654b0f4da5458f27bb94",
+    "changes": []
+  },
+  {
+    "source": "foc_pairwise_compare.py",
+    "path": "foc_pairwise_compare.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "70c00dc8a236b074a4abff817abb9593ae1848ca79da4d5291588f7684e8a24a",
+    "packaged_sha256": "70c00dc8a236b074a4abff817abb9593ae1848ca79da4d5291588f7684e8a24a",
+    "changes": []
+  },
+  {
+    "source": "foc_pairwise_report.py",
+    "path": "foc_pairwise_report.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "4eff67b7780327e5ac389f95a87fb118172a2efbef51bf1d405041f7e1d73299",
+    "packaged_sha256": "4eff67b7780327e5ac389f95a87fb118172a2efbef51bf1d405041f7e1d73299",
+    "changes": []
+  },
+  {
+    "source": "foc_subsequence_benchmark.py",
+    "path": "foc_subsequence_benchmark.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "8a95fb8add0c22eba74a8d02c16313a50ab275110aca86949ca4d77c3b320ae9",
+    "packaged_sha256": "8a95fb8add0c22eba74a8d02c16313a50ab275110aca86949ca4d77c3b320ae9",
+    "changes": []
+  },
+  {
+    "source": "foc_subsequence_compare.py",
+    "path": "foc_subsequence_compare.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "3531d8ec68c876513fd3007d1ebe4783c6731ab331587c1f1ed2e565a48b1809",
+    "packaged_sha256": "3531d8ec68c876513fd3007d1ebe4783c6731ab331587c1f1ed2e565a48b1809",
+    "changes": []
+  },
+  {
+    "source": "foc_subsequence_kernel.cpp",
+    "path": "foc_subsequence_kernel.cpp",
+    "role": "source/kernel referenced by foc_subsequence_compare.py",
+    "source_sha256": "05e7700d14a2db90a15559b50c54f0d4bac7841c4672134396b32ae688fd60b2",
+    "packaged_sha256": "05e7700d14a2db90a15559b50c54f0d4bac7841c4672134396b32ae688fd60b2",
+    "changes": []
+  },
+  {
+    "source": "foc_subsequence_report.py",
+    "path": "foc_subsequence_report.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "a3b3c34040bd2ad1eaf1e996f94d084439b709d88708eb621d431480127c84d2",
+    "packaged_sha256": "a3b3c34040bd2ad1eaf1e996f94d084439b709d88708eb621d431480127c84d2",
+    "changes": []
+  },
+  {
+    "source": "format_prompts.py",
+    "path": "format_prompts.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "bfa53681bfdaabc9f745c651509e180be96b9ef4cbf93d725f0d698b493220a6",
+    "packaged_sha256": "bfa53681bfdaabc9f745c651509e180be96b9ef4cbf93d725f0d698b493220a6",
+    "changes": []
+  },
+  {
+    "source": "grade_math.py",
+    "path": "grade_math.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "a15d0bfc10d68e4f71790f5bd72194da68986e6e93d96ad4d9bdecbd957c40af",
+    "packaged_sha256": "a15d0bfc10d68e4f71790f5bd72194da68986e6e93d96ad4d9bdecbd957c40af",
+    "changes": []
+  },
+  {
+    "source": "grade_mmlu.py",
+    "path": "grade_mmlu.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "438592e41d3b28e87f2166650e724b37c0f0b3a39051649bd23cda43a1725910",
+    "packaged_sha256": "438592e41d3b28e87f2166650e724b37c0f0b3a39051649bd23cda43a1725910",
+    "changes": []
+  },
+  {
+    "source": "grade_new_models.py",
+    "path": "grade_new_models.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "4ca8ff9fadf61dac754e3134fce3d30009aa00c7f39fa78309c25db48ccd793c",
+    "packaged_sha256": "4ca8ff9fadf61dac754e3134fce3d30009aa00c7f39fa78309c25db48ccd793c",
+    "changes": []
+  },
+  {
+    "source": "grade_simpleqa.py",
+    "path": "grade_simpleqa.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "84f7fbd706b91ab9c90603921a07624afdf584a303ee5dedb679bae5ee371243",
+    "packaged_sha256": "84f7fbd706b91ab9c90603921a07624afdf584a303ee5dedb679bae5ee371243",
+    "changes": []
+  },
+  {
+    "source": "grade_triviaqa.py",
+    "path": "grade_triviaqa.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "fdf6a7c136391f5417de9c188927c54d23bbaae1d4f2d3e025b8ddb01cd5ede1",
+    "packaged_sha256": "fdf6a7c136391f5417de9c188927c54d23bbaae1d4f2d3e025b8ddb01cd5ede1",
+    "changes": []
+  },
+  {
+    "source": "iclr/cascade_gain_table.py",
+    "path": "iclr/cascade_gain_table.py",
+    "role": "imported by iclr/frontier_figure.py",
+    "source_sha256": "e59bc001e67fd4de1b2d5e22c9d19e9bb9a92fc591bb6fd20ae042f5274384eb",
+    "packaged_sha256": "e59bc001e67fd4de1b2d5e22c9d19e9bb9a92fc591bb6fd20ae042f5274384eb",
+    "changes": []
+  },
+  {
+    "source": "iclr/escalation_figure.py",
+    "path": "iclr/escalation_figure.py",
+    "role": "included manuscript report",
+    "source_sha256": "2b8af5f05c0a40a7df05f79cc422912d70ac0be427cc28f414e23262579b8c54",
+    "packaged_sha256": "2b8af5f05c0a40a7df05f79cc422912d70ac0be427cc28f414e23262579b8c54",
+    "changes": []
+  },
+  {
+    "source": "iclr/exact_depth_report.py",
+    "path": "iclr/exact_depth_report.py",
+    "role": "included manuscript report",
+    "source_sha256": "f3255b7dde9d60837353b1b0e22b3dea1c327f30f4e47dfe8fb522c0ffa0c44b",
+    "packaged_sha256": "f3255b7dde9d60837353b1b0e22b3dea1c327f30f4e47dfe8fb522c0ffa0c44b",
+    "changes": []
+  },
+  {
+    "source": "iclr/foc_optimizer_tables.py",
+    "path": "iclr/foc_optimizer_tables.py",
+    "role": "included manuscript report",
+    "source_sha256": "7f663d4084c28cccde45f2bc3a25c91daf855c174306c4dc0b0db7803e92545f",
+    "packaged_sha256": "7f663d4084c28cccde45f2bc3a25c91daf855c174306c4dc0b0db7803e92545f",
+    "changes": []
+  },
+  {
+    "source": "iclr/frontier_figure.py",
+    "path": "iclr/frontier_figure.py",
+    "role": "imported by iclr/exact_depth_report.py",
+    "source_sha256": "e807357bc3adebe59fa29aad1e7f98f195b4b437a91e3df43954393d3033d8a2",
+    "packaged_sha256": "e807357bc3adebe59fa29aad1e7f98f195b4b437a91e3df43954393d3033d8a2",
+    "changes": []
+  },
+  {
+    "source": "iclr/shared_difficulty_tables.py",
+    "path": "iclr/shared_difficulty_tables.py",
+    "role": "included manuscript report",
+    "source_sha256": "7cfa54846af25b11563c048559890f5c0043af92f1aaabd704286382754a7137",
+    "packaged_sha256": "7cfa54846af25b11563c048559890f5c0043af92f1aaabd704286382754a7137",
+    "changes": []
+  },
+  {
+    "source": "llm-cascade-frontiers/src/grade_livecodebench.py",
+    "path": "grade_livecodebench.py",
+    "role": "available public-test LiveCodeBench grader, provenance caveat in DATA.md",
+    "source_sha256": "2c283e18ae4b19a8b0980e316eef954a0f0e1035e8db7f2eae66c6792b79559d",
+    "packaged_sha256": "2c283e18ae4b19a8b0980e316eef954a0f0e1035e8db7f2eae66c6792b79559d",
+    "changes": []
+  },
+  {
+    "source": "load_datasets.py",
+    "path": "load_datasets.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "bbb3e73b10bd5cb4ebee28ddb6c0be188f14090f3d99a7bf00d22c048e9686f2",
+    "packaged_sha256": "bbb3e73b10bd5cb4ebee28ddb6c0be188f14090f3d99a7bf00d22c048e9686f2",
+    "changes": []
+  },
+  {
+    "source": "manuscript_sources.py",
+    "path": "manuscript_sources.py",
+    "role": "imported by simulated_signal_depth.py",
+    "source_sha256": "41419fef3cc1171051cc19f0d2cccb64a10a55b390308f3c4f68aa3fb707f167",
+    "packaged_sha256": "41419fef3cc1171051cc19f0d2cccb64a10a55b390308f3c4f68aa3fb707f167",
+    "changes": []
+  },
+  {
+    "source": "models.py",
+    "path": "models.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "a708a73ebdbd3eec61885b85a9cfd6fc9d1e784ba96f88096bc66c9696ea9761",
+    "packaged_sha256": "a708a73ebdbd3eec61885b85a9cfd6fc9d1e784ba96f88096bc66c9696ea9761",
+    "changes": []
+  },
+  {
+    "source": "observed_stage_diagnostics.py",
+    "path": "observed_stage_diagnostics.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "bf6a6670aae41fffeca76b8c42d5399a547bcb9be27b237b9456b4e809b43571",
+    "packaged_sha256": "bf6a6670aae41fffeca76b8c42d5399a547bcb9be27b237b9456b4e809b43571",
+    "changes": []
+  },
+  {
+    "source": "optuna_frontier.py",
+    "path": "optuna_frontier.py",
+    "role": "imported by fig2_compute.py",
+    "source_sha256": "611f4da881757ef411a0b6afa97e0b88fd41ff9af449255c937fdd8f325c2355",
+    "packaged_sha256": "611f4da881757ef411a0b6afa97e0b88fd41ff9af449255c937fdd8f325c2355",
+    "changes": []
+  },
+  {
+    "source": "oracle_depth_analysis.py",
+    "path": "oracle_depth_analysis.py",
+    "role": "imported by exact_heldout_depth.py",
+    "source_sha256": "9006847edafe9ef5f6e96cadb868f6cd3f9abaef1fd12e4b51b79c45b9f1b8c6",
+    "packaged_sha256": "9006847edafe9ef5f6e96cadb868f6cd3f9abaef1fd12e4b51b79c45b9f1b8c6",
+    "changes": []
+  },
+  {
+    "source": "ratio_condition_check.py",
+    "path": "ratio_condition_check.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "b9074f82f69d907e443c41e2cf05285b92e14d2cb6ba1c3a958c1f6feb3c6b69",
+    "packaged_sha256": "b9074f82f69d907e443c41e2cf05285b92e14d2cb6ba1c3a958c1f6feb3c6b69",
+    "changes": []
+  },
+  {
+    "source": "response_scorer_compute.py",
+    "path": "response_scorer_compute.py",
+    "role": "imported by voi_compute.py",
+    "source_sha256": "89dcdca01c06a60622b7e375a4a45aee80c56f217e2625af0b87462f9d919a99",
+    "packaged_sha256": "89dcdca01c06a60622b7e375a4a45aee80c56f217e2625af0b87462f9d919a99",
+    "changes": []
+  },
+  {
+    "source": "scorer_depth_compute.py",
+    "path": "scorer_depth_compute.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "9a0b8c0c6095730d212e70b264e50c2d7b63eb0f6a597f23b3f2f853b9e08ff2",
+    "packaged_sha256": "9a0b8c0c6095730d212e70b264e50c2d7b63eb0f6a597f23b3f2f853b9e08ff2",
+    "changes": []
+  },
+  {
+    "source": "scorer_depth_report.py",
+    "path": "scorer_depth_report.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "89469b0411b387962f9ea783f38a26c97c7c2ea18445c17f52a88853f4a1024c",
+    "packaged_sha256": "89469b0411b387962f9ea783f38a26c97c7c2ea18445c17f52a88853f4a1024c",
+    "changes": []
+  },
+  {
+    "source": "shared_difficulty_depth.py",
+    "path": "shared_difficulty_depth.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "5295cb228e7213768f04b363014f8b7179ecb57bb21e994fca3790f069a97656",
+    "packaged_sha256": "5295cb228e7213768f04b363014f8b7179ecb57bb21e994fca3790f069a97656",
+    "changes": []
+  },
+  {
+    "source": "shared_difficulty_report.py",
+    "path": "shared_difficulty_report.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "13b8f5872c4f2292c094ed5039b9c11c9471f3592c363293478eb449c7a13cae",
+    "packaged_sha256": "13b8f5872c4f2292c094ed5039b9c11c9471f3592c363293478eb449c7a13cae",
+    "changes": []
+  },
+  {
+    "source": "simulate_correlated_confidence.py",
+    "path": "simulate_correlated_confidence.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "4471243988c1a3b7098fb66ca2131a7b6b9cdcd8440f96c90783bdf6cfeee751",
+    "packaged_sha256": "4471243988c1a3b7098fb66ca2131a7b6b9cdcd8440f96c90783bdf6cfeee751",
+    "changes": []
+  },
+  {
+    "source": "simulated_signal_depth.py",
+    "path": "simulated_signal_depth.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "8ebcbdd80342d23dcc4fda4d4a5700fbb4429381c092657ad785f4c6e9a2f31f",
+    "packaged_sha256": "8ebcbdd80342d23dcc4fda4d4a5700fbb4429381c092657ad785f4c6e9a2f31f",
+    "changes": []
+  },
+  {
+    "source": "simulated_signal_depth_four.py",
+    "path": "simulated_signal_depth_four.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "5d6114c575188eadcfb693e3f3ea5a8bc326f3d6f02fbb5950e77e04b8c8a7ec",
+    "packaged_sha256": "5d6114c575188eadcfb693e3f3ea5a8bc326f3d6f02fbb5950e77e04b8c8a7ec",
+    "changes": []
+  },
+  {
+    "source": "simulated_signal_depth_four_report.py",
+    "path": "simulated_signal_depth_four_report.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "84476c6abbe17a263ab99b7df8b7dde728cc4761672eaf96d18e6dcf0ae7e23b",
+    "packaged_sha256": "84476c6abbe17a263ab99b7df8b7dde728cc4761672eaf96d18e6dcf0ae7e23b",
+    "changes": []
+  },
+  {
+    "source": "simulated_signal_depth_report.py",
+    "path": "simulated_signal_depth_report.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "39d19c2d8878e0229bade006a24472043835a3db19005bb7a556128e96ac2bd4",
+    "packaged_sha256": "39d19c2d8878e0229bade006a24472043835a3db19005bb7a556128e96ac2bd4",
+    "changes": []
+  },
+  {
+    "source": "synthetic_cost_auroc_depth.py",
+    "path": "synthetic_cost_auroc_depth.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "130b3430d907463cae5562dc40a82810053df9fee12aee49a98b3a56a051c6ef",
+    "packaged_sha256": "130b3430d907463cae5562dc40a82810053df9fee12aee49a98b3a56a051c6ef",
+    "changes": []
+  },
+  {
+    "source": "synthetic_cost_depth.py",
+    "path": "synthetic_cost_depth.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "c78374f7da61d1242be02caaafe86fe9de2a93dcfe2d0c8daaa5ace7f7975a66",
+    "packaged_sha256": "c78374f7da61d1242be02caaafe86fe9de2a93dcfe2d0c8daaa5ace7f7975a66",
+    "changes": []
+  },
+  {
+    "source": "synthetic_cost_depth_report.py",
+    "path": "synthetic_cost_depth_report.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "78876cd62cf18ee7252471adac4d31067e246f3022a23dd4406beab079577334",
+    "packaged_sha256": "78876cd62cf18ee7252471adac4d31067e246f3022a23dd4406beab079577334",
+    "changes": []
+  },
+  {
+    "source": "synthetic_cost_full_confirmation.py",
+    "path": "synthetic_cost_full_confirmation.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "bd443dea2f21aaf52088418cb0cac8c4b6c222b7216791fbb55869aca9dd01d1",
+    "packaged_sha256": "bd443dea2f21aaf52088418cb0cac8c4b6c222b7216791fbb55869aca9dd01d1",
+    "changes": []
+  },
+  {
+    "source": "synthetic_score_draws.py",
+    "path": "synthetic_score_draws.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "a6fd4546f1b6ad74bde37f0ce375fd6fc3714085a547a501ab1e6e34b93818d4",
+    "packaged_sha256": "a6fd4546f1b6ad74bde37f0ce375fd6fc3714085a547a501ab1e6e34b93818d4",
+    "changes": []
+  },
+  {
+    "source": "synthetic_score_draws_tables.py",
+    "path": "synthetic_score_draws_tables.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "ab452e0243c68520d158de91f643711dc950b2b33e431cf65b1a4143bdfb4e4c",
+    "packaged_sha256": "ab452e0243c68520d158de91f643711dc950b2b33e431cf65b1a4143bdfb4e4c",
+    "changes": []
+  },
+  {
+    "source": "test_calibration_learning_curve.py",
+    "path": "test_calibration_learning_curve.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "3936ea843e0f33392bbba5c58abf2ff3277431414816954ab2ff8fa67b658e72",
+    "packaged_sha256": "3936ea843e0f33392bbba5c58abf2ff3277431414816954ab2ff8fa67b658e72",
+    "changes": []
+  },
+  {
+    "source": "test_exact_five.py",
+    "path": "test_exact_five.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "33975ec7f79407591c7ab53e90f95c140c13f8d771975457dfb8c25745a26200",
+    "packaged_sha256": "33975ec7f79407591c7ab53e90f95c140c13f8d771975457dfb8c25745a26200",
+    "changes": []
+  },
+  {
+    "source": "test_exact_four_model.py",
+    "path": "test_exact_four_model.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "aaef3cd0a7255012a869d97d8781bed81205b319b9e90646e1329c3890414cc7",
+    "packaged_sha256": "aaef3cd0a7255012a869d97d8781bed81205b319b9e90646e1329c3890414cc7",
+    "changes": []
+  },
+  {
+    "source": "test_exact_heldout_depth.py",
+    "path": "test_exact_heldout_depth.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "36f1b9fc121caa6719bb05a342fd59ac920549d4d7e6e27f96e62bde96685dc0",
+    "packaged_sha256": "36f1b9fc121caa6719bb05a342fd59ac920549d4d7e6e27f96e62bde96685dc0",
+    "changes": []
+  },
+  {
+    "source": "test_exact_heldout_five.py",
+    "path": "test_exact_heldout_five.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "7e580b66a110a28530794c7f967d898d94e239c2aafbe27adcc1c4484d2c8630",
+    "packaged_sha256": "7e580b66a110a28530794c7f967d898d94e239c2aafbe27adcc1c4484d2c8630",
+    "changes": []
+  },
+  {
+    "source": "test_exact_heldout_four.py",
+    "path": "test_exact_heldout_four.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "7e802dc0a15827f0ee4805ea9b778726388638eac5fc21b53ac2773f591007d8",
+    "packaged_sha256": "7e802dc0a15827f0ee4805ea9b778726388638eac5fc21b53ac2773f591007d8",
+    "changes": []
+  },
+  {
+    "source": "test_foc_pairwise_compare.py",
+    "path": "test_foc_pairwise_compare.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "89a955b9a676ea2e93a5618d2d9e88026c116d8ad6e3a798456fe315505ffd3f",
+    "packaged_sha256": "89a955b9a676ea2e93a5618d2d9e88026c116d8ad6e3a798456fe315505ffd3f",
+    "changes": []
+  },
+  {
+    "source": "test_foc_subsequence_compare.py",
+    "path": "test_foc_subsequence_compare.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "9792ba089bf42e2ed64ff790661082fa94dfc4ed041fc25e8490495fecff1d3c",
+    "packaged_sha256": "9792ba089bf42e2ed64ff790661082fa94dfc4ed041fc25e8490495fecff1d3c",
+    "changes": []
+  },
+  {
+    "source": "test_manuscript_sources.py",
+    "path": "test_manuscript_sources_with_historical_data.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "cce580639f582787afd64fef314bc7816bb271d7eee2f12fd51953d0e59241cd",
+    "packaged_sha256": "cce580639f582787afd64fef314bc7816bb271d7eee2f12fd51953d0e59241cd",
+    "changes": [
+      "Renamed to make historical data dependency explicit."
+    ]
+  },
+  {
+    "source": "test_scorer_depth_compute.py",
+    "path": "test_scorer_depth_compute.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "1dc3e4305083fc9f2186adefeba991f585297db9f9342afe9341ab9e8ce31279",
+    "packaged_sha256": "1dc3e4305083fc9f2186adefeba991f585297db9f9342afe9341ab9e8ce31279",
+    "changes": []
+  },
+  {
+    "source": "test_shared_difficulty_depth.py",
+    "path": "test_shared_difficulty_depth.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "5277e32deea759c6ad8e041ef0e8f82dfffc26206a2e0cf4c7413c8981b5205e",
+    "packaged_sha256": "5277e32deea759c6ad8e041ef0e8f82dfffc26206a2e0cf4c7413c8981b5205e",
+    "changes": []
+  },
+  {
+    "source": "test_simulated_signal_depth_four.py",
+    "path": "test_simulated_signal_depth_four.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "4e14d07589970af8cb9337e4d5a19af2ce09727ae82a00b1b749e346067b814c",
+    "packaged_sha256": "4e14d07589970af8cb9337e4d5a19af2ce09727ae82a00b1b749e346067b814c",
+    "changes": []
+  },
+  {
+    "source": "test_synthetic_cost_depth.py",
+    "path": "test_synthetic_cost_depth.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "a4c41e73760c04a3687618d620d4bcba77bd713ccd34c26f3d3d494871657be3",
+    "packaged_sha256": "a4c41e73760c04a3687618d620d4bcba77bd713ccd34c26f3d3d494871657be3",
+    "changes": []
+  },
+  {
+    "source": "test_synthetic_score_draws.py",
+    "path": "test_synthetic_score_draws.py",
+    "role": "included experiment, support, or existing validation",
+    "source_sha256": "99dd8afe7273959dd672bf658735c303a2302e40861b09e786d7690e8978eb67",
+    "packaged_sha256": "99dd8afe7273959dd672bf658735c303a2302e40861b09e786d7690e8978eb67",
+    "changes": []
+  },
+  {
+    "source": "voi_compute.py",
+    "path": "voi_compute.py",
+    "role": "imported by scorer_depth_compute.py",
+    "source_sha256": "130c2cd3c6c967f99be6c1a66cb9a23cf7eb8a5a0cae0560b195fe5cf35d51b9",
+    "packaged_sha256": "130c2cd3c6c967f99be6c1a66cb9a23cf7eb8a5a0cae0560b195fe5cf35d51b9",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/calibration_learning_curve_findings.tex",
+    "path": "iclr/tables/calibration_learning_curve_findings.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "75f874adc82395dc47c944eadd1c5b2c69a5cbef7c9366b815a23773461addc1",
+    "packaged_sha256": "75f874adc82395dc47c944eadd1c5b2c69a5cbef7c9366b815a23773461addc1",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/scorer_depth_findings.tex",
+    "path": "iclr/tables/scorer_depth_findings.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "274d0848fdd3fb7a7a40ce7810175876dcf15e7828f8ce6087e51f796001cb16",
+    "packaged_sha256": "274d0848fdd3fb7a7a40ce7810175876dcf15e7828f8ce6087e51f796001cb16",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_calibration_learning_curve.tex",
+    "path": "iclr/tables/table_calibration_learning_curve.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "27e3f6fbcd6470e1e0acfbda6b852157bb61486c6833ee26e868ea5e3de5a967",
+    "packaged_sha256": "27e3f6fbcd6470e1e0acfbda6b852157bb61486c6833ee26e868ea5e3de5a967",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_concavity_check.tex",
+    "path": "iclr/tables/table_concavity_check.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "85a13c79de8476ecca1076659b42a4260ed165bb4473bbd2327b0ae7c79356f1",
+    "packaged_sha256": "85a13c79de8476ecca1076659b42a4260ed165bb4473bbd2327b0ae7c79356f1",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_exact_budget_thirds.tex",
+    "path": "iclr/tables/table_exact_budget_thirds.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "b0ba0ac54e0cbccb90f7c59756b4051578ee419f9ef48c5f8e80b9ba7003631b",
+    "packaged_sha256": "b0ba0ac54e0cbccb90f7c59756b4051578ee419f9ef48c5f8e80b9ba7003631b",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_exact_depth.tex",
+    "path": "iclr/tables/table_exact_depth.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "a577b1a74c4eb407a58bc2e03bcc6ea589b90251b5e79e9aa26e1c807ec5091a",
+    "packaged_sha256": "a577b1a74c4eb407a58bc2e03bcc6ea589b90251b5e79e9aa26e1c807ec5091a",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_exact_feasibility.tex",
+    "path": "iclr/tables/table_exact_feasibility.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "f9b5a8e1458f6ac4fbd4b024d5fca1a1ccf76a833fb863f1d58035914092b54f",
+    "packaged_sha256": "f9b5a8e1458f6ac4fbd4b024d5fca1a1ccf76a833fb863f1d58035914092b54f",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_exact_reach.tex",
+    "path": "iclr/tables/table_exact_reach.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "9c25594862c9ef611884d8ebab9e95a519dd19b07b79e73f937f063600968a46",
+    "packaged_sha256": "9c25594862c9ef611884d8ebab9e95a519dd19b07b79e73f937f063600968a46",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_exact_search.tex",
+    "path": "iclr/tables/table_exact_search.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "a7a2904bce199fba4da22adb9e75572e23e53694c93842b0fa0966a8ec655b02",
+    "packaged_sha256": "a7a2904bce199fba4da22adb9e75572e23e53694c93842b0fa0966a8ec655b02",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_exact_usage.tex",
+    "path": "iclr/tables/table_exact_usage.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "a620ab5170460560a4eda3a28718ecc6afb9f9c1d149804f3f44eb2e6d7ca098",
+    "packaged_sha256": "a620ab5170460560a4eda3a28718ecc6afb9f9c1d149804f3f44eb2e6d7ca098",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_foc_optimizer_heldout.tex",
+    "path": "iclr/tables/table_foc_optimizer_heldout.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "e7a1fabd520e00fb58ab2f3a98a2bdc3bbf4af9d63afd1f51f8bf3c82f4a2346",
+    "packaged_sha256": "e7a1fabd520e00fb58ab2f3a98a2bdc3bbf4af9d63afd1f51f8bf3c82f4a2346",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_foc_optimizer_timing.tex",
+    "path": "iclr/tables/table_foc_optimizer_timing.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "5acf3ac565e6e1fc260958962a530a103a05e4a445fa57bad2d062ec851e2289",
+    "packaged_sha256": "5acf3ac565e6e1fc260958962a530a103a05e4a445fa57bad2d062ec851e2289",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_model_descriptives.tex",
+    "path": "iclr/tables/table_model_descriptives.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "9bcde4d43c22430899846dee856e58496bc8e2dbaf53cbd47c8ad40c0488feb0",
+    "packaged_sha256": "9bcde4d43c22430899846dee856e58496bc8e2dbaf53cbd47c8ad40c0488feb0",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_pair_standalone.tex",
+    "path": "iclr/tables/table_pair_standalone.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "5e4e0194e539306943796b3d5957476b3f61de1dc940d9c1caf1d0bf82b7d8b2",
+    "packaged_sha256": "5e4e0194e539306943796b3d5957476b3f61de1dc940d9c1caf1d0bf82b7d8b2",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_ratio_condition.tex",
+    "path": "iclr/tables/table_ratio_condition.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "ed9f370e0a87a0653e87ea3114008d552037e403c33e06fa87a71698b96addc0",
+    "packaged_sha256": "ed9f370e0a87a0653e87ea3114008d552037e403c33e06fa87a71698b96addc0",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_scorer_depth.tex",
+    "path": "iclr/tables/table_scorer_depth.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "1f2d9050ff6c5037e23192aeb4e9a7d44e5987ca94a0328cdd1338f04f6a9379",
+    "packaged_sha256": "1f2d9050ff6c5037e23192aeb4e9a7d44e5987ca94a0328cdd1338f04f6a9379",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_shared_difficulty_gains.tex",
+    "path": "iclr/tables/table_shared_difficulty_gains.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "3932a6ca4583aa35be10d63f6d99e53c22f317084883a960547d7f3869ad0dc4",
+    "packaged_sha256": "3932a6ca4583aa35be10d63f6d99e53c22f317084883a960547d7f3869ad0dc4",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_shared_difficulty_main.tex",
+    "path": "iclr/tables/table_shared_difficulty_main.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "d4839265028db09e743752557b8b28b0abd063fc12a73ffc9775f729ea622648",
+    "packaged_sha256": "d4839265028db09e743752557b8b28b0abd063fc12a73ffc9775f729ea622648",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_shared_difficulty_observed.tex",
+    "path": "iclr/tables/table_shared_difficulty_observed.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "45bff0d6e5b80bd2f88b60dd68788505b07b9d0275f27b73a147778e273663f9",
+    "packaged_sha256": "45bff0d6e5b80bd2f88b60dd68788505b07b9d0275f27b73a147778e273663f9",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_shared_difficulty_stages.tex",
+    "path": "iclr/tables/table_shared_difficulty_stages.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "25e2d232fdad55c6ee6749eeb0aa1a89ba1b7ec74c616cfd3e2174834174d696",
+    "packaged_sha256": "25e2d232fdad55c6ee6749eeb0aa1a89ba1b7ec74c616cfd3e2174834174d696",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_synthetic_diagnostics.tex",
+    "path": "iclr/tables/table_synthetic_diagnostics.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "13db98c7c605bade44eee42c12ac418a6e4f598a0b0f38bff0da6d1c1da53284",
+    "packaged_sha256": "13db98c7c605bade44eee42c12ac418a6e4f598a0b0f38bff0da6d1c1da53284",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_synthetic_draw_means.tex",
+    "path": "iclr/tables/table_synthetic_draw_means.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "4062996a20096f2957a766555c9c90db22426ea977f531c595a20e6b4dcf40d0",
+    "packaged_sha256": "4062996a20096f2957a766555c9c90db22426ea977f531c595a20e6b4dcf40d0",
+    "changes": []
+  },
+  {
+    "source": "iclr/tables/table_synthetic_draw_splits.tex",
+    "path": "iclr/tables/table_synthetic_draw_splits.tex",
+    "role": "included table snapshot and reporting template",
+    "source_sha256": "8d59e6dce1f11ddfd5f3f7d04a56c31b18dd9c5d9c85c8b4a13bf03890d59402",
+    "packaged_sha256": "8d59e6dce1f11ddfd5f3f7d04a56c31b18dd9c5d9c85c8b4a13bf03890d59402",
+    "changes": []
+  },
+  {
+    "source": "experiments/experiments.ipynb",
+    "path": "generation_reference/experiments.ipynb",
+    "role": "generation reference, missing utils dependency documented",
+    "source_sha256": "6355e6d7bc87f6f3609e3e9dd8aaec5ee9c439d0adda3c97d4b738671cbd10e7",
+    "packaged_sha256": "91002a68752adb38b3094758e8b4912811c1351748ae61c4b45e8910c2b30401",
+    "changes": [
+      "Cleared execution outputs, counts, and notebook metadata.",
+      "Removed two commented author-specific chdir examples."
+    ]
+  },
+  {
+    "source": "next_model_diff01.py",
+    "path": "next_model_diff01.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "b4eebb45512638221de3f84a807992d316232f731dd6d6515ad963653d96aa06",
+    "packaged_sha256": "b4eebb45512638221de3f84a807992d316232f731dd6d6515ad963653d96aa06",
+    "changes": []
+  },
+  {
+    "source": "next_model_diff01_deep.py",
+    "path": "next_model_diff01_deep.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "f01d01ee7f73b4668922454bf293163019cdfe38962e7df87753611270886c39",
+    "packaged_sha256": "f01d01ee7f73b4668922454bf293163019cdfe38962e7df87753611270886c39",
+    "changes": []
+  },
+  {
+    "source": "next_model_deep_search.py",
+    "path": "next_model_deep_search.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "4ed6c81d646a25c371ed59cbf121dcc2dc690759c98430aae81c7b26afc2450a",
+    "packaged_sha256": "4ed6c81d646a25c371ed59cbf121dcc2dc690759c98430aae81c7b26afc2450a",
+    "changes": []
+  },
+  {
+    "source": "next_model_depth_kernel.cpp",
+    "path": "next_model_depth_kernel.cpp",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "12d4af631dadfba70b200e2a57f831a9fd6ccf8badcde6746cf3a2f817ab9501",
+    "packaged_sha256": "12d4af631dadfba70b200e2a57f831a9fd6ccf8badcde6746cf3a2f817ab9501",
+    "changes": []
+  },
+  {
+    "source": "next_model_embedding_diff01.py",
+    "path": "next_model_embedding_diff01.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "ff80efdb0714b0cf983cdb04ad59639d423abb6c8a17590949c0f2c1f07d5957",
+    "packaged_sha256": "ff80efdb0714b0cf983cdb04ad59639d423abb6c8a17590949c0f2c1f07d5957",
+    "changes": []
+  },
+  {
+    "source": "next_model_embedding_diff01_s5.py",
+    "path": "next_model_embedding_diff01_s5.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "3f37fbbbab496faf43f6c6848df45a17cae0bd7a4090ce3447da109e1f3d7253",
+    "packaged_sha256": "3f37fbbbab496faf43f6c6848df45a17cae0bd7a4090ce3447da109e1f3d7253",
+    "changes": []
+  },
+  {
+    "source": "continuation_benefit_compute.py",
+    "path": "continuation_benefit_compute.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "c26a668468bad214ece94afcdde84c043b3dbbd3eaa4a36ea2d2257b31970540",
+    "packaged_sha256": "c26a668468bad214ece94afcdde84c043b3dbbd3eaa4a36ea2d2257b31970540",
+    "changes": []
+  },
+  {
+    "source": "test_next_model_diff01.py",
+    "path": "test_next_model_diff01.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "87dbe694a64e94f798e906c66057726816bf9c98a64c0cac3b70f8c09f0e807f",
+    "packaged_sha256": "87dbe694a64e94f798e906c66057726816bf9c98a64c0cac3b70f8c09f0e807f",
+    "changes": []
+  },
+  {
+    "source": "test_next_model_deep_search.py",
+    "path": "test_next_model_deep_search.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "16db371b30e9cc104405f65201d460c2e784dd863f701c8ec2d40cb9bcd510b8",
+    "packaged_sha256": "16db371b30e9cc104405f65201d460c2e784dd863f701c8ec2d40cb9bcd510b8",
+    "changes": []
+  },
+  {
+    "source": "test_next_model_deep_pruning.py",
+    "path": "test_next_model_deep_pruning.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "d34ce24de0d2fee5606947eb8202cd047412a81213e0bd21664dd0fb67fdac92",
+    "packaged_sha256": "d34ce24de0d2fee5606947eb8202cd047412a81213e0bd21664dd0fb67fdac92",
+    "changes": []
+  },
+  {
+    "source": "test_next_model_embedding_diff01.py",
+    "path": "test_next_model_embedding_diff01.py",
+    "role": "Diff-01 scorer reproduction and validation",
+    "source_sha256": "77dd5295656ffc6a1dee41762834987fad6208fe3be45fab3ea5b77a8d84d488",
+    "packaged_sha256": "77dd5295656ffc6a1dee41762834987fad6208fe3be45fab3ea5b77a8d84d488",
+    "changes": []
+  }
+]

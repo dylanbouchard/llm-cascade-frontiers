@@ -1,0 +1,314 @@
+{
+  "master": "iclr/main_iclr.tex",
+  "files": [
+    {
+      "path": "iclr/main_iclr.tex",
+      "sha256": "6e435130d2758e4fdd3db534a0376b6ff89592fd5364ad5ad12852b41a6dcc13",
+      "headings": [
+        "Disclosure of LLM usage",
+        "Experimental Setup",
+        "Additional Results",
+        "Checks of the Theoretical Conditions"
+      ]
+    },
+    {
+      "path": "iclr/math_commands.tex",
+      "sha256": "90473c4d0542070db244cea73ef962d6cddc5b2a746757e6a40ddf5fdfb90ba9",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/abstract.tex",
+      "sha256": "5be5423a471a9493034f3efa8a2125368da89271c2020d8b3586ab90feda7c91",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/introduction.tex",
+      "sha256": "4bb815649b38a9dbe38b036a31641c0883fb85177784baae376783f7e53066f9",
+      "headings": [
+        "Introduction"
+      ]
+    },
+    {
+      "path": "iclr/sections/related_work.tex",
+      "sha256": "a173d646b56fc3acebf1a3a904b520901abb3f90689c1e895c977ed6d21af773",
+      "headings": [
+        "Related Work"
+      ]
+    },
+    {
+      "path": "iclr/sections/cascades.tex",
+      "sha256": "b0992337ee6d896a457531815ea3ed70d25ab1031633b67500ef524910df0b27",
+      "headings": [
+        "The $k$-Model Cascade Framework",
+        "Setup and Cascade Mechanism",
+        "First-Order Optimality Conditions",
+        "Selection Among Subsequences",
+        "Correctness Discrimination and Cascade Value"
+      ]
+    },
+    {
+      "path": "iclr/sections/experiments.tex",
+      "sha256": "e2c2feabaca8c9f7fa1d8ab749ee0a1f634406b0991919903189c64766618468",
+      "headings": [
+        "Experiments",
+        "Experimental Setup",
+        "Empirical Check of the First-Order Conditions",
+        "The Value of Depth",
+        "Counterfactual Experiments: Confidence Signal and Cost Distribution"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_exact_depth.tex",
+      "sha256": "a577b1a74c4eb407a58bc2e03bcc6ea589b90251b5e79e9aa26e1c807ec5091a",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_shared_difficulty_main.tex",
+      "sha256": "d4839265028db09e743752557b8b28b0abd063fc12a73ffc9775f729ea622648",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/conclusion.tex",
+      "sha256": "1020303b1cec82fce6f0387823c7e416b622d874756d45ab22946fd7032080ad",
+      "headings": [
+        "Conclusion and Limitations"
+      ]
+    },
+    {
+      "path": "iclr/sections/supplemental_theory.tex",
+      "sha256": "2df4c6aa7300dec0b15a065fabc42a952a2812a19042b8df9d5fbfc0310fde2c",
+      "headings": [
+        "Supplementary Theoretical Analysis",
+        "Regularity conditions and proof of Theorem~\\ref{thm:foc",
+        "Monotonicity"
+      ]
+    },
+    {
+      "path": "iclr/sections/two_model_geometry_appendix.tex",
+      "sha256": "af7b5fef94db01891bbf4dc1a62d6c7655d72bf0da4de93d7b6fbde88cbeb0a2",
+      "headings": [
+        "Two-Model Specialization",
+        "Frontier Geometry"
+      ]
+    },
+    {
+      "path": "iclr/sections/signal_quality_appendix.tex",
+      "sha256": "2d12ed71641d4ef90b41b9283d7abacd88579060f6fe8ac81ed56f854b1f630c",
+      "headings": [
+        "Proof of Proposition~\\ref{prop:auc-gain"
+      ]
+    },
+    {
+      "path": "iclr/sections/model_descriptives_appendix.tex",
+      "sha256": "fbf4bfd18b9053ce67a70a8bdb1a17b637b445c3a1592ab1caf0931d1e497a54",
+      "headings": [
+        "Models, Token Prices, and Cost Computation"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_model_descriptives.tex",
+      "sha256": "9bcde4d43c22430899846dee856e58496bc8e2dbaf53cbd47c8ad40c0488feb0",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/grading_appendix.tex",
+      "sha256": "5c390aa391a72c7ca0031fa4b3c5b8c8254028f2dd98925adc84d70dc6955430",
+      "headings": [
+        "Dataset Grading Details"
+      ]
+    },
+    {
+      "path": "iclr/sections/scorer_definitions_appendix.tex",
+      "sha256": "97f4c9f54b3483f3be6b0d4f3c42ee1d2ec4061f4264ab1188f0b1958e4ec40a",
+      "headings": [
+        "Deferral Scores"
+      ]
+    },
+    {
+      "path": "iclr/sections/exact_depth_appendix.tex",
+      "sha256": "3409b431b1bf54c390d5f2e344313be8b3007a70aad6fff3ec277c925a6eb80c",
+      "headings": [
+        "Exact Calibration-Set Selection and Test-Set Evaluation"
+      ]
+    },
+    {
+      "path": "iclr/sections/foc_optimizer_appendix.tex",
+      "sha256": "7b5852770507cdd2c74cad023fab88d7acd212434ac1481e291a21dc1ec13060",
+      "headings": [
+        "FOC-Guided Threshold Optimization"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_foc_optimizer_heldout.tex",
+      "sha256": "e7a1fabd520e00fb58ab2f3a98a2bdc3bbf4af9d63afd1f51f8bf3c82f4a2346",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_foc_optimizer_timing.tex",
+      "sha256": "5acf3ac565e6e1fc260958962a530a103a05e4a445fa57bad2d062ec851e2289",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/escalation_appendix.tex",
+      "sha256": "031ddf0e425394bad296d4ad1db4155837ac71bae97186e6b4793bf3d508d9d5",
+      "headings": [
+        "Representative Escalation Benefit Curves"
+      ]
+    },
+    {
+      "path": "iclr/sections/concavity_check_appendix.tex",
+      "sha256": "84ec3ed6373f4c0aac9fd3e47b4863207a1561cb43aef30e24bb136ef31748aa",
+      "headings": [
+        "Realized Frontier Concavity Check"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_concavity_check.tex",
+      "sha256": "85a13c79de8476ecca1076659b42a4260ed165bb4473bbd2327b0ae7c79356f1",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/cost_variability_appendix.tex",
+      "sha256": "a5004d17c94d051600201088de657e6237c15070e4a413b161d0bc7630f30102",
+      "headings": [
+        "Cost and Benefit-Cost Ratio Diagnostics"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_ratio_condition.tex",
+      "sha256": "ed9f370e0a87a0653e87ea3114008d552037e403c33e06fa87a71698b96addc0",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/voi_appendix.tex",
+      "sha256": "cb1989aa5bf8d9cc91551f1fd9f852da0ee5132d2e903887844c1a6d5410503c",
+      "headings": [
+        "Scorer Discrimination and Robustness of the Depth Comparison",
+        "Scorer Discrimination",
+        "Robustness of the Depth Comparison"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_scorer_depth.tex",
+      "sha256": "1f2d9050ff6c5037e23192aeb4e9a7d44e5987ca94a0328cdd1338f04f6a9379",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/scorer_depth_findings.tex",
+      "sha256": "274d0848fdd3fb7a7a40ce7810175876dcf15e7828f8ce6087e51f796001cb16",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/depth_details_appendix.tex",
+      "sha256": "1ac76c35a73e23fb54aa5beb705e9283f194dee106a6918b7440d671cfcf3020",
+      "headings": [
+        "Depth Comparison Details"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_pair_standalone.tex",
+      "sha256": "5e4e0194e539306943796b3d5957476b3f61de1dc940d9c1caf1d0bf82b7d8b2",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_exact_budget_thirds.tex",
+      "sha256": "b0ba0ac54e0cbccb90f7c59756b4051578ee419f9ef48c5f8e80b9ba7003631b",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_exact_feasibility.tex",
+      "sha256": "f9b5a8e1458f6ac4fbd4b024d5fca1a1ccf76a833fb863f1d58035914092b54f",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_exact_usage.tex",
+      "sha256": "a620ab5170460560a4eda3a28718ecc6afb9f9c1d149804f3f44eb2e6d7ca098",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_exact_reach.tex",
+      "sha256": "9c25594862c9ef611884d8ebab9e95a519dd19b07b79e73f937f063600968a46",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_exact_search.tex",
+      "sha256": "a7a2904bce199fba4da22adb9e75572e23e53694c93842b0fa0966a8ec655b02",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/oracle_depth_appendix.tex",
+      "sha256": "bbb2935b0b9538ec0c15daa9dbdf5440e4ce0181bd3c121728f375de26fa4b74",
+      "headings": [
+        "Full-Sample Oracle Value of Depth"
+      ]
+    },
+    {
+      "path": "iclr/sections/cal_sensitivity_appendix.tex",
+      "sha256": "6f58f115e5d48a7b77ef21f5a30cbe4bc1161eb7fa47bbcdbdfc410b3d398e75",
+      "headings": [
+        "Calibration Learning Curve with a Fixed Test Set"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_calibration_learning_curve.tex",
+      "sha256": "27e3f6fbcd6470e1e0acfbda6b852157bb61486c6833ee26e868ea5e3de5a967",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/calibration_learning_curve_findings.tex",
+      "sha256": "75f874adc82395dc47c944eadd1c5b2c69a5cbef7c9366b815a23773461addc1",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/synthetic_score_appendix.tex",
+      "sha256": "fc571034e243fd274f7c0817a768a337b2df0bb986312b19cb4d31abd24ea0f0",
+      "headings": [
+        "Synthetic-Score Construction and Matched Diagnostics"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_synthetic_diagnostics.tex",
+      "sha256": "13db98c7c605bade44eee42c12ac418a6e4f598a0b0f38bff0da6d1c1da53284",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_synthetic_draw_means.tex",
+      "sha256": "4062996a20096f2957a766555c9c90db22426ea977f531c595a20e6b4dcf40d0",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_synthetic_draw_splits.tex",
+      "sha256": "8d59e6dce1f11ddfd5f3f7d04a56c31b18dd9c5d9c85c8b4a13bf03890d59402",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/shared_difficulty_appendix.tex",
+      "sha256": "d015733c3091872f705cd0a016d1832166d7ee435c61e8edd00886e83724ce1b",
+      "headings": [
+        "Synthetic Scores with Shared Query Difficulty"
+      ]
+    },
+    {
+      "path": "iclr/tables/table_shared_difficulty_gains.tex",
+      "sha256": "3932a6ca4583aa35be10d63f6d99e53c22f317084883a960547d7f3869ad0dc4",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_shared_difficulty_stages.tex",
+      "sha256": "25e2d232fdad55c6ee6749eeb0aa1a89ba1b7ec74c616cfd3e2174834174d696",
+      "headings": []
+    },
+    {
+      "path": "iclr/tables/table_shared_difficulty_observed.tex",
+      "sha256": "45bff0d6e5b80bd2f88b60dd68788505b07b9d0275f27b73a147778e273663f9",
+      "headings": []
+    },
+    {
+      "path": "iclr/sections/cost_counterfactual_appendix.tex",
+      "sha256": "51258c5d84eec3c10d1db877e452574fca244b496df35ea2d42bed6b6c6a7873",
+      "headings": [
+        "Synthetic Cost Structures"
+      ]
+    }
+  ]
+}

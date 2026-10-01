@@ -1,0 +1,13 @@
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrrrrrr@{}}
+\toprule
+& \multicolumn{3}{c}{$S_3-S_2$ (pp)} & \multicolumn{3}{c}{Downstream AUROC} & \multicolumn{3}{c}{\shortstack{Gain over random\\escalation (pp)}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(l){8-10}
+Dataset \quad $w$ & $0$ & $0.5$ & max & $0$ & $0.5$ & max & $0$ & $0.5$ & max \\
+\midrule
+MMLU & $+0.81$ & $+0.20$ & $-0.15$ & $0.68$ & $0.79$ & $0.89$ & $4.5$ & $2.8$ & $1.4$ \\
+TriviaQA & $+1.07$ & $+0.03$ & $-0.04$ & $0.71$ & $0.83$ & $0.91$ & $5.7$ & $3.0$ & $2.0$ \\
+MATH & $+0.44$ & $-0.11$ & $-0.05$ & $0.67$ & $0.79$ & $0.93$ & $3.9$ & $1.7$ & $-1.1$ \\
+SimpleQA & $+0.57$ & $-0.21$ & $-0.08$ & $0.59$ & $0.69$ & $0.79$ & $3.2$ & $0.4$ & $-1.8$ \\
+LiveCodeBench & $-0.07$ & $-0.07$ & $-0.03$ & $0.64$ & $0.76$ & $0.89$ & $5.3$ & $2.5$ & $-0.1$ \\
+\bottomrule
+\end{tabular*}

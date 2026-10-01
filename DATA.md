@@ -1,5 +1,8 @@
 # Data Notes
 
+This document describes the earlier `src/` release. For the final ICLR paper,
+use [`iclr2026/DATA.md`](iclr2026/DATA.md).
+
 This repository includes formatted prompts/source records and cached numerical
 results, but not the large raw model-response cache.
 
