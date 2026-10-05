@@ -1,4 +1,4 @@
-# [Is Escalation Worth It? A Decision-Theoretic Study of Depth in LLM Cascades](https://arxiv.org/abs/2605.06350)
+# [Is Escalation Worth It? On the Depth of LLM Cascades](https://arxiv.org/abs/2605.06350)
 
 This repository contains public experiment code and cached numerical results for the paper.
 

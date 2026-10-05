@@ -1,6 +1,6 @@
 # Reproducibility code
 
-Code supplement for **Is Escalation Worth It? A Decision-Theoretic Study of Depth in LLM Cascades**.
+Code supplement for **Is Escalation Worth It? On the Depth of LLM Cascades**.
 Scope follows the uncommented, recursive includes of the working manuscript
 at packaging time. `EXPERIMENTS.md` maps every included empirical analysis to
 its source and output. Manuscript paths in the inventory are normalized aliases

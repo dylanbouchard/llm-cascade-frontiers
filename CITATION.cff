@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Is Escalation Worth It? A Decision-Theoretic Study of Depth in LLM Cascades"
+title: "Is Escalation Worth It? On the Depth of LLM Cascades"
 authors:
   - family-names: Bouchard
     given-names: Dylan
