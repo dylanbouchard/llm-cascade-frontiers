@@ -32,7 +32,7 @@ def gains(label, dataset, depth, baseline):
 
 
 def update_depth_table(datasets):
-    path = ROOT/'iclr/tables/table_scorer_depth.tex'
+    path = ROOT/'paper/tables/table_scorer_depth.tex'
     lines = [line for line in path.read_text().splitlines() if not line.startswith('Diff-01')]
     additions = [[], []]
     for label in ARMS:

@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from synthetic_score_draws import summarize, OUT
 
-PAPER = Path(__file__).resolve().parent / 'iclr'
+PAPER = Path(__file__).resolve().parent / 'paper'
 DATASETS = (('mmlu', 'MMLU'), ('triviaqa', 'TriviaQA'), ('math_hard', 'MATH'),
             ('simpleqa', 'SimpleQA'), ('livecodebench', 'LiveCodeBench'))
 

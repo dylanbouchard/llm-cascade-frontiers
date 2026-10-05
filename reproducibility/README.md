@@ -1,10 +1,10 @@
-# ICLR reproducibility scripts
+# Reproducibility code
 
 Code supplement for **Is Escalation Worth It? A Decision-Theoretic Study of Depth in LLM Cascades**.
-Scope follows the uncommented, recursive includes of `iclr/main_iclr.tex` in the
-working manuscript at packaging time. `EXPERIMENTS.md` maps every included
-empirical analysis to its source and output. The older repository overview and
-NeurIPS bundle are not the inclusion criteria.
+Scope follows the uncommented, recursive includes of the working manuscript
+at packaging time. `EXPERIMENTS.md` maps every included empirical analysis to
+its source and output. Manuscript paths in the inventory are normalized aliases
+for the original source paths.
 
 This is a **scripts-only supplement**. Recorded response parquets, embeddings,
 large result caches, model weights, and API credentials are not included.
@@ -82,7 +82,7 @@ replication and should run in a separate copy of the supplement.
 
 ## Source provenance and reporting
 
-`SOURCE_MANIFEST.json` lists the repository-relative source, original SHA-256,
+`SOURCE_MANIFEST.json` lists normalized source paths, original SHA-256,
 packaged SHA-256, role, and packaging changes for every copied source and table.
 Numerical implementations are copied from the existing source. A small set of
 scorer-extension scripts had author-specific absolute roots replaced with paths
@@ -100,7 +100,7 @@ They handle orchestration, input copying, validation, or presentation.
 `render_current_outputs.py` assembles the nine-score main table and S1-S4
 signal plot from the copied validated loaders and summary outputs because the
 older report entry points produce superseded layouts. Figure styling can differ
-from the submitted PDF. Table snapshots under `iclr/tables` are reference values
+from the submitted PDF. Table snapshots under `paper/tables` are reference values
 and, for some original reporters, templates. Their presence is not evidence that
 an experiment has been rerun. Numeric outputs for manually typeset appendix
 tables are identified in `EXPERIMENTS.md`.

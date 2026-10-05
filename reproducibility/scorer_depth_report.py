@@ -7,7 +7,7 @@ from scorer_depth_compute import ALL_SCORERS, DATASETS, report
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT/'results/scorer_depth'
-PAPER = ROOT/'iclr'
+PAPER = ROOT/'paper'
 LABELS = ['Mean negentropy', 'Min negentropy', r'Prob.\ margin', 'Min probability',
           r'Length-norm.\ probability', 'Correctness-trained token-prob.', 'Correctness-trained embedding']
 NAMES = ['MMLU', 'TriviaQA', 'MATH', 'SimpleQA', 'LiveCodeBench']

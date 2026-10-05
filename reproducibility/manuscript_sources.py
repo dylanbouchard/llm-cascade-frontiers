@@ -1,4 +1,4 @@
-"""Explicit result sources for the current eight-model ICLR manuscript."""
+"""Explicit result sources for the current eight-model paper manuscript."""
 from pathlib import Path
 import hashlib
 import json

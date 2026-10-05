@@ -27,7 +27,7 @@ for d in DATASETS:
 f=pd.DataFrame(records);f.to_csv(HERE/'split_integrals.csv',index=False)
 s=f.groupby(['dataset','scorer']).agg(splits=('split','count'),s5_accuracy_pp=('s5_accuracy_pp','mean'),s5_minus_s4_pp=('s5_minus_s4_pp','mean'),kernel_seconds=('kernel_seconds','sum'))
 s.to_csv(HERE/'scorer_s5_summary.csv')
-p=ROOT/'iclr/tables/table_exact_depth.tex'
+p=ROOT/'paper/tables/table_exact_depth.tex'
 lines=p.read_text().splitlines();d=-1
 for i,line in enumerate(lines):
  if '$S_3-S_2$' in line:d+=1

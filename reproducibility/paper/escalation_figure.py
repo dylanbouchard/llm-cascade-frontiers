@@ -56,9 +56,9 @@ def main():
         Line2D([0],[0],color=blue,lw=1.4,label='Median spline'),
         Line2D([0],[0],color=red,ls='--',label='Isotonic non-increasing fit'),
         Line2D([0],[0],color='gray',ls=':',label='Zero')],loc='center',frameon=False,fontsize=9)
-    path=ROOT/'iclr/figures/fig3_escalation_benefit.pdf'
+    path=ROOT/'paper/figures/fig3_escalation_benefit.pdf'
     fig.savefig(path);plt.close(fig)
-    out=ROOT/'iclr/results/escalation_figure';out.mkdir(parents=True,exist_ok=True)
+    out=ROOT/'paper/results/escalation_figure';out.mkdir(parents=True,exist_ok=True)
     (out/'provenance.json').write_text(json.dumps(dict(generator=file_record(Path(__file__)),inputs=provenance,output=file_record(path)),indent=2)+'\n')
 
 if __name__=='__main__':main()

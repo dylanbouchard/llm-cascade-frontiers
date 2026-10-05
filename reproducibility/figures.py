@@ -291,11 +291,11 @@ def _sampled_split_ci(
 
 
 # ---------------------------------------------------------------------------
-# ICLR Figure 1 — Representative pairwise envelope
+# paper Figure 1 — Representative pairwise envelope
 # ---------------------------------------------------------------------------
 
 def fig_pairwise_envelope_example(save: bool = True):
-    """Representative calibration-split pairwise envelope used in the ICLR main text."""
+    """Representative calibration-split pairwise envelope used in the paper main text."""
     from itertools import combinations
     from cascade_core import compute_frontier
     from fig2_compute import load_full, make_split, non_dominated_models, valid_pairs_from_data, slice_data
@@ -930,7 +930,7 @@ def fig2_kmodel_vs_envelope(save: bool = True):
             kc_curves     = np.load(ds_dir / "kcascade_curves.npy")
 
             line_specs = [
-                (fixed_curves,  FIXED_COLOR,  r"Full fixed chain",    (0, (1.0, 1.1)), 2.15, "s", (9, 34)),
+                (fixed_curves,  FIXED_COLOR,  r"Full fixed model sequence",    (0, (1.0, 1.1)), 2.15, "s", (9, 34)),
                 (env_curves,    ENV_COLOR,    "Optimal pair",         "-",             2.65, "o", (0, 34)),
                 (kc_curves,     KMODEL_COLOR, r"Optimal subsequence", (0, (5.0, 1.4)), 2.35, "^", (18, 34)),
             ]
@@ -947,7 +947,7 @@ def fig2_kmodel_vs_envelope(save: bool = True):
                         zorder=5+z)
 
             for mat, color, label_base, ls, z in [
-                (fixed_curves, FIXED_COLOR, r"Full fixed chain", (0, (1.0, 1.1)), 3),
+                (fixed_curves, FIXED_COLOR, r"Full fixed model sequence", (0, (1.0, 1.1)), 3),
                 (kc_curves, KMODEL_COLOR, r"Optimal subsequence", (0, (5.0, 1.4)), 4),
             ]:
                 gap = 100.0 * (env_curves - mat)
@@ -989,7 +989,7 @@ def fig2_kmodel_vs_envelope(save: bool = True):
         ]
         legend_labels = [
             "Optimal pair",
-            "Full fixed chain",
+            "Full fixed model sequence",
             "Optimal subsequence",
         ]
         fig.legend(
@@ -1539,7 +1539,7 @@ def fig_stage_diagnostics(save: bool = True):
             color="#B00020",
             fontsize=6.6,
         )
-        ax.set_title("(b) Fixed-chain boundary ratios", loc="left", pad=3)
+        ax.set_title("(b) Fixed model-sequence boundary ratios", loc="left", pad=3)
         ax.set_xticks(xs)
         ax.set_xticklabels([LABELS[ds] for ds in ORDER])
         ax.set_ylabel(r"Intermediate / first boundary ratio")
@@ -2075,7 +2075,7 @@ def table1_summary(save: bool = True) -> str:
     method_labels = {
         "always_exp": r"Always-expensive",
         "envelope":   r"Optimal pair",
-        "fixed":      r"Full fixed chain",
+        "fixed":      r"Full fixed model sequence",
         "kcascade":   r"Optimal subsequence",
         "router":     r"Diagnostic learned router",
     }

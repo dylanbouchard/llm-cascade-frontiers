@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 NAMES={'mmlu':'MMLU','triviaqa':'TriviaQA','math_hard':'MATH','simpleqa':'SimpleQA','livecodebench':'LiveCodeBench'}
 with (ROOT/'results/foc_five/summary.csv').open() as f:
     rows={(r['dataset'],int(r['depth'])):r for r in csv.DictReader(f)}
-out=ROOT/'iclr/tables'
+out=ROOT/'paper/tables'
 def table(name,columns,body):
     text='\\begin{tabular}{l'+'r'*(len(columns)-1)+'}\n\\toprule\n'+' & '.join(columns)+r' \\'+'\n\\midrule\n'
     text+='\n'.join(' & '.join(row)+r' \\' for row in body)

@@ -1,6 +1,6 @@
 """Render observed/synthetic frontier comparisons from validated frozen caches.
 
-Run .venv/bin/python iclr/frontier_figure.py from the repository root.
+Run .venv/bin/python paper/frontier_figure.py from the repository root.
 """
 import json
 import os
@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from manuscript_sources import DATASETS, EXPECTED_MODELS, result_path
 from cascade_gain_table import SCORERS
-PAPER = ROOT / 'iclr'
+PAPER = ROOT / 'paper'
 NAMES = ('MMLU', 'TriviaQA', 'MATH', 'SimpleQA', 'LiveCodeBench')
 LABELS = ('Mean token negentropy', 'Min token negentropy', 'Probability margin',
           'Min probability', 'Length-normalized probability', 'Logistic regression ensemble',

@@ -1,6 +1,6 @@
 """One reporting convention for frozen exact test-set comparisons.
 
-Run from the repository root with .venv/bin/python iclr/exact_depth_report.py.
+Run from the repository root with .venv/bin/python paper/exact_depth_report.py.
 This never changes search results. Primary summaries integrate piecewise-linear
 paired differences on the original 500 normalized budget positions. Split means
 receive equal weight. Arithmetic means are retained as a cross-check.
@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from manuscript_sources import result_path, validate_exact, file_record
-PAPER = ROOT/'iclr'
+PAPER = ROOT/'paper'
 OUT = PAPER/'results/exact_depth'
 DATASETS = ['mmlu', 'triviaqa', 'math_hard', 'simpleqa', 'livecodebench']
 NAMES = dict(zip(DATASETS, ['MMLU', 'TriviaQA', 'MATH', 'SimpleQA', 'LiveCodeBench']))

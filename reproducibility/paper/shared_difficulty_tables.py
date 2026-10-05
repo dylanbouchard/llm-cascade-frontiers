@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 ROOT=Path(__file__).resolve().parents[1]
 SRC=ROOT/'results/shared_difficulty_depth'
-OUT=ROOT/'iclr/tables'
+OUT=ROOT/'paper/tables'
 NAMES={'mmlu':'MMLU','triviaqa':'TriviaQA','math_hard':'MATH','simpleqa':'SimpleQA','livecodebench':'LiveCodeBench'}
 CONDITIONS=('own','half','max')
 SCORERS={'mean_token_negentropy':'Mean negentropy','min_token_negentropy':'Min negentropy','probability_margin':'Probability margin','min_probability':'Min probability','sequence_probability':'Length-normalized probability','logreg_ensemble':'Correctness-trained token-prob.','response_logreg':'Correctness-trained embedding'}

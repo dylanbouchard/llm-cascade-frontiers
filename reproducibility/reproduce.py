@@ -46,7 +46,7 @@ def commands(stage, workers):
         add('foc_subsequence_benchmark.py')
         add('foc_five_compare.py')
         add('foc_five_report.py')
-        add('iclr/foc_optimizer_tables.py')
+        add('paper/foc_optimizer_tables.py')
     if stage == 'diff01':
         add('next_model_diff01.py', '--workers', workers, '--out', 'results/next_model_diff01_full')
         add('next_model_diff01_deep.py', '--workers', workers, '--arms', 'diff01_ridge',
@@ -71,7 +71,7 @@ def commands(stage, workers):
         add('shared_difficulty_depth.py', '--workers', workers)
         add('shared_difficulty_report.py')
         add('observed_stage_diagnostics.py')
-        add('iclr/shared_difficulty_tables.py')
+        add('paper/shared_difficulty_tables.py')
     if stage == 'costs':
         add('synthetic_cost_depth.py', '--prepare-only')
         add('synthetic_cost_full_confirmation.py', '--workers', workers)
@@ -87,15 +87,15 @@ def commands(stage, workers):
                 add(script, *ds, cwd=cwd)
         add('cost_variability.py')
         add('ratio_condition_check.py')
-        add('iclr/escalation_figure.py')
+        add('paper/escalation_figure.py')
         add('render_all_pairs.py')
     if stage == 'learning':
         for cwd, ds in [(ROOT, DATASETS[:-1]), (LCB, ['livecodebench'])]:
             add('calibration_learning_curve.py', *ds, '--workers', workers, cwd=cwd)
         add('calibration_learning_curve_report.py')
     if stage == 'reports':
-        add('iclr/exact_depth_report.py')
-        add('iclr/frontier_figure.py', '--main-only')
+        add('paper/exact_depth_report.py')
+        add('paper/frontier_figure.py', '--main-only')
         add('render_current_outputs.py')
     return jobs
 
@@ -111,7 +111,7 @@ def main():
     if not 1 <= args.workers <= 8:
         parser.error('workers must be between 1 and 8')
     if args.run:
-        for directory in ['iclr/figures', 'iclr/sections', 'iclr/tables', 'figures', 'results']:
+        for directory in ['paper/figures', 'paper/sections', 'paper/tables', 'figures', 'results']:
             (ROOT/directory).mkdir(parents=True, exist_ok=True)
     env = os.environ.copy()
     env.setdefault('MPLBACKEND', 'Agg')

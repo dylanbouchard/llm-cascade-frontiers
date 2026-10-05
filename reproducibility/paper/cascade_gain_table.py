@@ -1,6 +1,6 @@
 """Refresh the main table's cascade-gain panel from matched eight-model caches.
 
-Run from the repository root with .venv/bin/python iclr/cascade_gain_table.py.
+Run from the repository root with .venv/bin/python paper/cascade_gain_table.py.
 Existing depth-gain rows are preserved.
 """
 import json
@@ -45,7 +45,7 @@ def main():
                 gains[index].append(100 * np.trapz(frame.d2_accuracy - single.d1_accuracy, single.fraction))
         cells = [f'${np.mean(values):+.3f}$' for values in gains]
         rows.append(name + r' & $S_2-S_1$ & ' + ' & '.join(cells) + r' \\')
-    path = ROOT / 'iclr/tables/table_exact_depth.tex'
+    path = ROOT / 'paper/tables/table_exact_depth.tex'
     text = path.read_text()
     header, body = text.split('\\midrule\n', 1)
     # Also accept an already refreshed table, making repeated runs idempotent.

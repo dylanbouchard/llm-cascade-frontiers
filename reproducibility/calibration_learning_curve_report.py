@@ -9,8 +9,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-OUT = ROOT / 'iclr/results/calibration_learning_curve'
-PAPER = ROOT / 'iclr'
+OUT = ROOT / 'paper/results/calibration_learning_curve'
+PAPER = ROOT / 'paper'
 NAMES = dict(mmlu='MMLU', triviaqa='TriviaQA', math_hard='MATH', simpleqa='SimpleQA', livecodebench='LiveCodeBench')
 
 

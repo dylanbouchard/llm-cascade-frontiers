@@ -4,7 +4,7 @@
     "path": "audit_exact_inputs.py",
     "role": "included experiment, support, or existing validation",
     "source_sha256": "dc487ff5dd126ba68adade4f412337b39946973572bd071e2120b1edb32d35dc",
-    "packaged_sha256": "dc487ff5dd126ba68adade4f412337b39946973572bd071e2120b1edb32d35dc",
+    "packaged_sha256": "3c55b946997d64c0c9afa20756ed3684a2d99ce72f0bedfb3415c3bcfb4d436d",
     "changes": []
   },
   {
@@ -44,7 +44,7 @@
     "path": "calibration_learning_curve_report.py",
     "role": "included experiment, support, or existing validation",
     "source_sha256": "1bc93d391602b143d924dd8e4169cb653454a5816b166aac010d1494e25e1a76",
-    "packaged_sha256": "1bc93d391602b143d924dd8e4169cb653454a5816b166aac010d1494e25e1a76",
+    "packaged_sha256": "42081766faef1d5a7175e360cba6b696c80a2067e913726f30cd2edd1098fb5e",
     "changes": []
   },
   {
@@ -284,7 +284,7 @@
     "path": "experiments/livecodebench_8model_20260912/figures.py",
     "role": "imported by experiments/livecodebench_8model_20260912/concavity_check.py",
     "source_sha256": "905cfade4fabcb0da9acf1c37b7d3d02b331a3350ec2a8946b0c1cee8408a5ce",
-    "packaged_sha256": "905cfade4fabcb0da9acf1c37b7d3d02b331a3350ec2a8946b0c1cee8408a5ce",
+    "packaged_sha256": "5a9535ab9fea3a4c8026ab4617ca4107d00781acdfc3a6caae56a4ff1a2f0891",
     "changes": []
   },
   {
@@ -408,7 +408,7 @@
     "path": "experiments/scorer_s5_20260916/report.py",
     "role": "included scorer depth extension",
     "source_sha256": "59cef93a4a93c794fa473e8f0859da9e288bbf0547616d0bbeaebf106468250d",
-    "packaged_sha256": "59cef93a4a93c794fa473e8f0859da9e288bbf0547616d0bbeaebf106468250d",
+    "packaged_sha256": "756078adf3555484ff7da5b11d379a252b13faf6616050a4880a3f5afc698ecb",
     "changes": []
   },
   {
@@ -434,7 +434,7 @@
     "path": "figures.py",
     "role": "imported by concavity_check.py",
     "source_sha256": "ae0e28d9a1618131bd2659efce3ad52d46a06588f5d5eddacf6e73bcfdbad345",
-    "packaged_sha256": "ae0e28d9a1618131bd2659efce3ad52d46a06588f5d5eddacf6e73bcfdbad345",
+    "packaged_sha256": "64e36665cd12545bc50c8fe24b96a8470e548c3f366554ec8f1fe3f0ae8d5c58",
     "changes": []
   },
   {
@@ -550,51 +550,51 @@
     "changes": []
   },
   {
-    "source": "iclr/cascade_gain_table.py",
-    "path": "iclr/cascade_gain_table.py",
-    "role": "imported by iclr/frontier_figure.py",
+    "source": "paper/cascade_gain_table.py",
+    "path": "paper/cascade_gain_table.py",
+    "role": "imported by paper/frontier_figure.py",
     "source_sha256": "e59bc001e67fd4de1b2d5e22c9d19e9bb9a92fc591bb6fd20ae042f5274384eb",
-    "packaged_sha256": "e59bc001e67fd4de1b2d5e22c9d19e9bb9a92fc591bb6fd20ae042f5274384eb",
+    "packaged_sha256": "341d523c648243c769edff55782b92c3698f4aa2b8328f2e49c6ecf6513e4399",
     "changes": []
   },
   {
-    "source": "iclr/escalation_figure.py",
-    "path": "iclr/escalation_figure.py",
+    "source": "paper/escalation_figure.py",
+    "path": "paper/escalation_figure.py",
     "role": "included manuscript report",
     "source_sha256": "2b8af5f05c0a40a7df05f79cc422912d70ac0be427cc28f414e23262579b8c54",
-    "packaged_sha256": "2b8af5f05c0a40a7df05f79cc422912d70ac0be427cc28f414e23262579b8c54",
+    "packaged_sha256": "711b1faa61dd1cea70ccb50130257b02d388ae0aa25f6358b9fabd2cd4af7046",
     "changes": []
   },
   {
-    "source": "iclr/exact_depth_report.py",
-    "path": "iclr/exact_depth_report.py",
+    "source": "paper/exact_depth_report.py",
+    "path": "paper/exact_depth_report.py",
     "role": "included manuscript report",
     "source_sha256": "f3255b7dde9d60837353b1b0e22b3dea1c327f30f4e47dfe8fb522c0ffa0c44b",
-    "packaged_sha256": "f3255b7dde9d60837353b1b0e22b3dea1c327f30f4e47dfe8fb522c0ffa0c44b",
+    "packaged_sha256": "fc53011ac9d4eff449d1a7ec725cb476e256329d7de556308a09284973ba34a1",
     "changes": []
   },
   {
-    "source": "iclr/foc_optimizer_tables.py",
-    "path": "iclr/foc_optimizer_tables.py",
+    "source": "paper/foc_optimizer_tables.py",
+    "path": "paper/foc_optimizer_tables.py",
     "role": "included manuscript report",
     "source_sha256": "7f663d4084c28cccde45f2bc3a25c91daf855c174306c4dc0b0db7803e92545f",
-    "packaged_sha256": "7f663d4084c28cccde45f2bc3a25c91daf855c174306c4dc0b0db7803e92545f",
+    "packaged_sha256": "ff94cf46dc64c351eff6f10fcc9a6324a7025caf85f11dd5d87de5527a9c75e6",
     "changes": []
   },
   {
-    "source": "iclr/frontier_figure.py",
-    "path": "iclr/frontier_figure.py",
-    "role": "imported by iclr/exact_depth_report.py",
+    "source": "paper/frontier_figure.py",
+    "path": "paper/frontier_figure.py",
+    "role": "imported by paper/exact_depth_report.py",
     "source_sha256": "e807357bc3adebe59fa29aad1e7f98f195b4b437a91e3df43954393d3033d8a2",
-    "packaged_sha256": "e807357bc3adebe59fa29aad1e7f98f195b4b437a91e3df43954393d3033d8a2",
+    "packaged_sha256": "45fc2f8b559e1fae932bbc8f4411c7144f43aa4922827eb52ea0b3a06a94af13",
     "changes": []
   },
   {
-    "source": "iclr/shared_difficulty_tables.py",
-    "path": "iclr/shared_difficulty_tables.py",
+    "source": "paper/shared_difficulty_tables.py",
+    "path": "paper/shared_difficulty_tables.py",
     "role": "included manuscript report",
     "source_sha256": "7cfa54846af25b11563c048559890f5c0043af92f1aaabd704286382754a7137",
-    "packaged_sha256": "7cfa54846af25b11563c048559890f5c0043af92f1aaabd704286382754a7137",
+    "packaged_sha256": "df8bb30c86100b32450d46ee360f4cfcfa8198c58238083dd335bdecc1bd8f0d",
     "changes": []
   },
   {
@@ -618,7 +618,7 @@
     "path": "manuscript_sources.py",
     "role": "imported by simulated_signal_depth.py",
     "source_sha256": "41419fef3cc1171051cc19f0d2cccb64a10a55b390308f3c4f68aa3fb707f167",
-    "packaged_sha256": "41419fef3cc1171051cc19f0d2cccb64a10a55b390308f3c4f68aa3fb707f167",
+    "packaged_sha256": "0289b301901ee2abb3d414c783c220a32d9a8de8f880df54b63c5a72c79d3255",
     "changes": []
   },
   {
@@ -682,7 +682,7 @@
     "path": "scorer_depth_report.py",
     "role": "included experiment, support, or existing validation",
     "source_sha256": "89469b0411b387962f9ea783f38a26c97c7c2ea18445c17f52a88853f4a1024c",
-    "packaged_sha256": "89469b0411b387962f9ea783f38a26c97c7c2ea18445c17f52a88853f4a1024c",
+    "packaged_sha256": "e41871a83f6c458fe7613dba2f5a7907c0ffb7bc51b117bcedef44c678bebe62",
     "changes": []
   },
   {
@@ -738,7 +738,7 @@
     "path": "simulated_signal_depth_report.py",
     "role": "included experiment, support, or existing validation",
     "source_sha256": "39d19c2d8878e0229bade006a24472043835a3db19005bb7a556128e96ac2bd4",
-    "packaged_sha256": "39d19c2d8878e0229bade006a24472043835a3db19005bb7a556128e96ac2bd4",
+    "packaged_sha256": "4bc03f0f2f3b39f665b06ade5d3faf2efcd77f0b5cd9811da15f5524d83006bf",
     "changes": []
   },
   {
@@ -786,7 +786,7 @@
     "path": "synthetic_score_draws_tables.py",
     "role": "included experiment, support, or existing validation",
     "source_sha256": "ab452e0243c68520d158de91f643711dc950b2b33e431cf65b1a4143bdfb4e4c",
-    "packaged_sha256": "ab452e0243c68520d158de91f643711dc950b2b33e431cf65b1a4143bdfb4e4c",
+    "packaged_sha256": "b3f0e555acaf71e33aaf946cbd20b8eaf8f78c792d1f276f43c577a96ff8f052",
     "changes": []
   },
   {
@@ -912,184 +912,184 @@
     "changes": []
   },
   {
-    "source": "iclr/tables/calibration_learning_curve_findings.tex",
-    "path": "iclr/tables/calibration_learning_curve_findings.tex",
+    "source": "paper/tables/calibration_learning_curve_findings.tex",
+    "path": "paper/tables/calibration_learning_curve_findings.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "75f874adc82395dc47c944eadd1c5b2c69a5cbef7c9366b815a23773461addc1",
     "packaged_sha256": "75f874adc82395dc47c944eadd1c5b2c69a5cbef7c9366b815a23773461addc1",
     "changes": []
   },
   {
-    "source": "iclr/tables/scorer_depth_findings.tex",
-    "path": "iclr/tables/scorer_depth_findings.tex",
+    "source": "paper/tables/scorer_depth_findings.tex",
+    "path": "paper/tables/scorer_depth_findings.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "274d0848fdd3fb7a7a40ce7810175876dcf15e7828f8ce6087e51f796001cb16",
     "packaged_sha256": "274d0848fdd3fb7a7a40ce7810175876dcf15e7828f8ce6087e51f796001cb16",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_calibration_learning_curve.tex",
-    "path": "iclr/tables/table_calibration_learning_curve.tex",
+    "source": "paper/tables/table_calibration_learning_curve.tex",
+    "path": "paper/tables/table_calibration_learning_curve.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "27e3f6fbcd6470e1e0acfbda6b852157bb61486c6833ee26e868ea5e3de5a967",
     "packaged_sha256": "27e3f6fbcd6470e1e0acfbda6b852157bb61486c6833ee26e868ea5e3de5a967",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_concavity_check.tex",
-    "path": "iclr/tables/table_concavity_check.tex",
+    "source": "paper/tables/table_concavity_check.tex",
+    "path": "paper/tables/table_concavity_check.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "85a13c79de8476ecca1076659b42a4260ed165bb4473bbd2327b0ae7c79356f1",
     "packaged_sha256": "85a13c79de8476ecca1076659b42a4260ed165bb4473bbd2327b0ae7c79356f1",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_exact_budget_thirds.tex",
-    "path": "iclr/tables/table_exact_budget_thirds.tex",
+    "source": "paper/tables/table_exact_budget_thirds.tex",
+    "path": "paper/tables/table_exact_budget_thirds.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "b0ba0ac54e0cbccb90f7c59756b4051578ee419f9ef48c5f8e80b9ba7003631b",
     "packaged_sha256": "b0ba0ac54e0cbccb90f7c59756b4051578ee419f9ef48c5f8e80b9ba7003631b",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_exact_depth.tex",
-    "path": "iclr/tables/table_exact_depth.tex",
+    "source": "paper/tables/table_exact_depth.tex",
+    "path": "paper/tables/table_exact_depth.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "a577b1a74c4eb407a58bc2e03bcc6ea589b90251b5e79e9aa26e1c807ec5091a",
     "packaged_sha256": "a577b1a74c4eb407a58bc2e03bcc6ea589b90251b5e79e9aa26e1c807ec5091a",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_exact_feasibility.tex",
-    "path": "iclr/tables/table_exact_feasibility.tex",
+    "source": "paper/tables/table_exact_feasibility.tex",
+    "path": "paper/tables/table_exact_feasibility.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "f9b5a8e1458f6ac4fbd4b024d5fca1a1ccf76a833fb863f1d58035914092b54f",
     "packaged_sha256": "f9b5a8e1458f6ac4fbd4b024d5fca1a1ccf76a833fb863f1d58035914092b54f",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_exact_reach.tex",
-    "path": "iclr/tables/table_exact_reach.tex",
+    "source": "paper/tables/table_exact_reach.tex",
+    "path": "paper/tables/table_exact_reach.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "9c25594862c9ef611884d8ebab9e95a519dd19b07b79e73f937f063600968a46",
     "packaged_sha256": "9c25594862c9ef611884d8ebab9e95a519dd19b07b79e73f937f063600968a46",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_exact_search.tex",
-    "path": "iclr/tables/table_exact_search.tex",
+    "source": "paper/tables/table_exact_search.tex",
+    "path": "paper/tables/table_exact_search.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "a7a2904bce199fba4da22adb9e75572e23e53694c93842b0fa0966a8ec655b02",
     "packaged_sha256": "a7a2904bce199fba4da22adb9e75572e23e53694c93842b0fa0966a8ec655b02",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_exact_usage.tex",
-    "path": "iclr/tables/table_exact_usage.tex",
+    "source": "paper/tables/table_exact_usage.tex",
+    "path": "paper/tables/table_exact_usage.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "a620ab5170460560a4eda3a28718ecc6afb9f9c1d149804f3f44eb2e6d7ca098",
     "packaged_sha256": "a620ab5170460560a4eda3a28718ecc6afb9f9c1d149804f3f44eb2e6d7ca098",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_foc_optimizer_heldout.tex",
-    "path": "iclr/tables/table_foc_optimizer_heldout.tex",
+    "source": "paper/tables/table_foc_optimizer_heldout.tex",
+    "path": "paper/tables/table_foc_optimizer_heldout.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "e7a1fabd520e00fb58ab2f3a98a2bdc3bbf4af9d63afd1f51f8bf3c82f4a2346",
     "packaged_sha256": "e7a1fabd520e00fb58ab2f3a98a2bdc3bbf4af9d63afd1f51f8bf3c82f4a2346",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_foc_optimizer_timing.tex",
-    "path": "iclr/tables/table_foc_optimizer_timing.tex",
+    "source": "paper/tables/table_foc_optimizer_timing.tex",
+    "path": "paper/tables/table_foc_optimizer_timing.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "5acf3ac565e6e1fc260958962a530a103a05e4a445fa57bad2d062ec851e2289",
     "packaged_sha256": "5acf3ac565e6e1fc260958962a530a103a05e4a445fa57bad2d062ec851e2289",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_model_descriptives.tex",
-    "path": "iclr/tables/table_model_descriptives.tex",
+    "source": "paper/tables/table_model_descriptives.tex",
+    "path": "paper/tables/table_model_descriptives.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "9bcde4d43c22430899846dee856e58496bc8e2dbaf53cbd47c8ad40c0488feb0",
     "packaged_sha256": "9bcde4d43c22430899846dee856e58496bc8e2dbaf53cbd47c8ad40c0488feb0",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_pair_standalone.tex",
-    "path": "iclr/tables/table_pair_standalone.tex",
+    "source": "paper/tables/table_pair_standalone.tex",
+    "path": "paper/tables/table_pair_standalone.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "5e4e0194e539306943796b3d5957476b3f61de1dc940d9c1caf1d0bf82b7d8b2",
     "packaged_sha256": "5e4e0194e539306943796b3d5957476b3f61de1dc940d9c1caf1d0bf82b7d8b2",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_ratio_condition.tex",
-    "path": "iclr/tables/table_ratio_condition.tex",
+    "source": "paper/tables/table_ratio_condition.tex",
+    "path": "paper/tables/table_ratio_condition.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "ed9f370e0a87a0653e87ea3114008d552037e403c33e06fa87a71698b96addc0",
     "packaged_sha256": "ed9f370e0a87a0653e87ea3114008d552037e403c33e06fa87a71698b96addc0",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_scorer_depth.tex",
-    "path": "iclr/tables/table_scorer_depth.tex",
+    "source": "paper/tables/table_scorer_depth.tex",
+    "path": "paper/tables/table_scorer_depth.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "1f2d9050ff6c5037e23192aeb4e9a7d44e5987ca94a0328cdd1338f04f6a9379",
     "packaged_sha256": "1f2d9050ff6c5037e23192aeb4e9a7d44e5987ca94a0328cdd1338f04f6a9379",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_shared_difficulty_gains.tex",
-    "path": "iclr/tables/table_shared_difficulty_gains.tex",
+    "source": "paper/tables/table_shared_difficulty_gains.tex",
+    "path": "paper/tables/table_shared_difficulty_gains.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "3932a6ca4583aa35be10d63f6d99e53c22f317084883a960547d7f3869ad0dc4",
     "packaged_sha256": "3932a6ca4583aa35be10d63f6d99e53c22f317084883a960547d7f3869ad0dc4",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_shared_difficulty_main.tex",
-    "path": "iclr/tables/table_shared_difficulty_main.tex",
+    "source": "paper/tables/table_shared_difficulty_main.tex",
+    "path": "paper/tables/table_shared_difficulty_main.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "d4839265028db09e743752557b8b28b0abd063fc12a73ffc9775f729ea622648",
     "packaged_sha256": "d4839265028db09e743752557b8b28b0abd063fc12a73ffc9775f729ea622648",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_shared_difficulty_observed.tex",
-    "path": "iclr/tables/table_shared_difficulty_observed.tex",
+    "source": "paper/tables/table_shared_difficulty_observed.tex",
+    "path": "paper/tables/table_shared_difficulty_observed.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "45bff0d6e5b80bd2f88b60dd68788505b07b9d0275f27b73a147778e273663f9",
     "packaged_sha256": "45bff0d6e5b80bd2f88b60dd68788505b07b9d0275f27b73a147778e273663f9",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_shared_difficulty_stages.tex",
-    "path": "iclr/tables/table_shared_difficulty_stages.tex",
+    "source": "paper/tables/table_shared_difficulty_stages.tex",
+    "path": "paper/tables/table_shared_difficulty_stages.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "25e2d232fdad55c6ee6749eeb0aa1a89ba1b7ec74c616cfd3e2174834174d696",
     "packaged_sha256": "25e2d232fdad55c6ee6749eeb0aa1a89ba1b7ec74c616cfd3e2174834174d696",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_synthetic_diagnostics.tex",
-    "path": "iclr/tables/table_synthetic_diagnostics.tex",
+    "source": "paper/tables/table_synthetic_diagnostics.tex",
+    "path": "paper/tables/table_synthetic_diagnostics.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "13db98c7c605bade44eee42c12ac418a6e4f598a0b0f38bff0da6d1c1da53284",
     "packaged_sha256": "13db98c7c605bade44eee42c12ac418a6e4f598a0b0f38bff0da6d1c1da53284",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_synthetic_draw_means.tex",
-    "path": "iclr/tables/table_synthetic_draw_means.tex",
+    "source": "paper/tables/table_synthetic_draw_means.tex",
+    "path": "paper/tables/table_synthetic_draw_means.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "4062996a20096f2957a766555c9c90db22426ea977f531c595a20e6b4dcf40d0",
     "packaged_sha256": "4062996a20096f2957a766555c9c90db22426ea977f531c595a20e6b4dcf40d0",
     "changes": []
   },
   {
-    "source": "iclr/tables/table_synthetic_draw_splits.tex",
-    "path": "iclr/tables/table_synthetic_draw_splits.tex",
+    "source": "paper/tables/table_synthetic_draw_splits.tex",
+    "path": "paper/tables/table_synthetic_draw_splits.tex",
     "role": "included table snapshot and reporting template",
     "source_sha256": "8d59e6dce1f11ddfd5f3f7d04a56c31b18dd9c5d9c85c8b4a13bf03890d59402",
     "packaged_sha256": "8d59e6dce1f11ddfd5f3f7d04a56c31b18dd9c5d9c85c8b4a13bf03890d59402",

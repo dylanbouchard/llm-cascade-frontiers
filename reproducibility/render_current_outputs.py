@@ -12,7 +12,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT / 'iclr'))
+sys.path.insert(0, str(ROOT / 'paper'))
 from frontier_figure import load_scores, X, NAMES, LABELS
 from cascade_gain_table import SCORERS
 from manuscript_sources import DATASETS
@@ -37,7 +37,7 @@ def main():
                 vals.append(None if v is None else v.mean())
             lines.append((name if d==3 else '') + f' & $S_{d}-S_2$ & ' + ' & '.join('---' if v is None else f'${v:+.3f}$' for v in vals) + r' \\')
     lines += [r'\bottomrule', r'\end{tabular}']
-    (ROOT/'iclr/tables/table_exact_depth.tex').write_text('\n'.join(lines)+'\n')
+    (ROOT/'paper/tables/table_exact_depth.tex').write_text('\n'.join(lines)+'\n')
     update_depth_table(DATASETS)
     summary = pd.read_csv(ROOT/'results/simulated_signal_depth_four/summary.csv').set_index(['dataset','target_auroc'])
     fig, axes = plt.subplots(2,5,figsize=(13,5),sharex=True)
@@ -61,10 +61,10 @@ def main():
     axes[0,0].legend(fontsize=8)
     axes[1,0].legend(fontsize=8)
     fig.tight_layout()
-    fig.savefig(ROOT/'iclr/figures/fig_signal_quality.pdf')
+    fig.savefig(ROOT/'paper/figures/fig_signal_quality.pdf')
     plt.close(fig)
     for src, dest in [('synthetic_cost_depth','cost_depth_observed.pdf'),('synthetic_cost_auroc09_depth','cost_depth_auroc09.pdf')]:
-        shutil.copyfile(ROOT/'results'/src/'cost_depth.pdf', ROOT/'iclr/figures'/dest)
+        shutil.copyfile(ROOT/'results'/src/'cost_depth.pdf', ROOT/'paper/figures'/dest)
 
 if __name__ == '__main__':
     main()

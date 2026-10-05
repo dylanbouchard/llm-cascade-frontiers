@@ -38,7 +38,7 @@ def audit():
         record = dict(dataset=dataset, jointly_valid_rows=len(rows), data_sha256=digest.hexdigest(), status='passed')
         records.append(record)
         print(record, flush=True)
-    dest = ROOT/'iclr/results/exact_depth/input_audit.json'
+    dest = ROOT/'paper/results/exact_depth/input_audit.json'
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(records, indent=2)+'\n')
 

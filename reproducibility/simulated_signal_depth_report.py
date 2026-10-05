@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 OUT=Path('results/simulated_signal_depth')
 DATASETS=('mmlu','triviaqa','math_hard','simpleqa','livecodebench')
 NAMES=('MMLU','TriviaQA','MATH 3–5','SimpleQA','LiveCodeBench')
-PAPER=Path('iclr')
+PAPER=Path('paper')
 
 
 def diagnostics():
